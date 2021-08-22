@@ -6,9 +6,10 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
+  <div>
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
+    <h1 class="text-4xl font-bold text-center text-blue">Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
@@ -17,13 +18,14 @@ const IndexPage = () => (
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
+      class='mb-6'
     />
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p>
   </Layout>
+  </div>
 )
 
 export default IndexPage
