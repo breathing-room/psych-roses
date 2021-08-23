@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
@@ -9,21 +8,12 @@ const IndexPage = () => (
   <div>
   <Layout>
     <Seo title="Home" />
-    <h1 class="text-4xl font-bold text-center text-blue">Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
+      src="../images/placeholder.jpg"
+      class="m-0 p-0"
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      class='mb-6'
+      alt="placeholder"
     />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
   </Layout>
   </div>
 )
