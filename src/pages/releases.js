@@ -3,15 +3,15 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const AboutPage = () => (
+const MusicPage = () => (
   <div>
   <Layout>
-    <Seo title="About" />
+    <Seo title="Music" />
     <p class='m-4 p-4'>
-        Bio and stuff here 
+        Embed music here for both albums? 
     </p>
   </Layout>
   </div>
 )
 
-export default AboutPage
+export default MusicPage

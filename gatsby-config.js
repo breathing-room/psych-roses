@@ -15,6 +15,22 @@ module.exports = {
         name: 'about',
         link: '/about',
       },
+      {
+        name: 'shows',
+        link: '/shows',
+      },
+      {
+        name: 'music',
+        link: '/music',
+      },
+      {
+        name: 'press',
+        link: '/press',
+      },
+      {
+        name: 'shop',
+        link: '/shop',
+      },
     ]
   },
   plugins: [

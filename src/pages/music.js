@@ -3,10 +3,10 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const AboutPage = () => (
+const ReleasesPage = () => (
   <div>
   <Layout>
-    <Seo title="About" />
+    <Seo title="Releases" />
     <p class='m-4 p-4'>
         Bio and stuff here 
     </p>
@@ -14,4 +14,4 @@ const AboutPage = () => (
   </div>
 )
 
-export default AboutPage
+export default ReleasesPage
