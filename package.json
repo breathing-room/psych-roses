@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/fascinate": "^4.5.0",
     "gatsby": "^3.11.1",
     "gatsby-background-image-es5": "^1.5.3",
     "gatsby-plugin-gatsby-cloud": "^2.11.0",

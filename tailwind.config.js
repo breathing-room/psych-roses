@@ -2,7 +2,14 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'gold-foil': "url('/images/gold-foil.jpg')",
+       }),
+    },
+    fontFamily: {
+      'title': ['Fascinate', 'serif']
+    },
   },
   variants: {
     extend: {

@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   html, body {
@@ -8,6 +11,10 @@
   }
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.gold-text {
+  color:#fbbf24;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(../images/gold-foil.jpg);
+}
