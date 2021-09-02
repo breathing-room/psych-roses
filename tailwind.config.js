@@ -10,6 +10,9 @@ module.exports = {
     fontFamily: {
       'title': ['Fascinate', 'serif']
     },
+    flexGrow: {
+      '2': 2
+    }
   },
   variants: {
     extend: {

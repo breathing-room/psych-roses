@@ -9,7 +9,7 @@ const IndexPage = () => (
     <Layout>
       <Seo title="Home" />
       <StaticImage
-        src="../images/placeholder.jpg"
+        src="https://picsum.photos/1050"
         class="m-0 p-0 max-h-screen"
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="placeholder"
