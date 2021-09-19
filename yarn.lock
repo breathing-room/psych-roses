@@ -4617,7 +4617,7 @@
   dependencies:
     "is-obj" "^2.0.0"
 
-"dotenv@^8.2.0":
+"dotenv@^8.2.0", "dotenv@^8.6.0":
   "integrity" "sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g=="
   "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-8.6.0.tgz"
   "version" "8.6.0"
@@ -6166,6 +6166,14 @@
     "ws" "^7.3.0"
     "xstate" "^4.9.1"
     "yoga-layout-prebuilt" "^1.9.6"
+
+"gatsby-source-bandsintown@^1.0.0":
+  "integrity" "sha512-5fWIzmAct3mhM23foPMuO5+zsQM4LlbJbMspBBX0Kqjn2JgI/9Rd/l1rzsUG3ZF/HvSwj0hakNgI8hQGlXCpeA=="
+  "resolved" "https://registry.npmjs.org/gatsby-source-bandsintown/-/gatsby-source-bandsintown-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "node-fetch" "^2.6.0"
+    "query-string" "^6.11.0"
 
 "gatsby-source-filesystem@^3.0.0-next.0", "gatsby-source-filesystem@^3.11.0":
   "integrity" "sha512-cKQ4yhzLfw8Gs0B1FtgsLu51iqF+BUu/UewLBtu61I7Qyym797ESqeAvBd0bdHYckXmWl7c3qhBd1531iOXp2w=="
@@ -9113,7 +9121,7 @@
   "resolved" "https://registry.npmjs.org/node-eta/-/node-eta-0.9.0.tgz"
   "version" "0.9.0"
 
-"node-fetch@^2.5.0", "node-fetch@^2.6.1", "node-fetch@2", "node-fetch@2.6.1":
+"node-fetch@^2.5.0", "node-fetch@^2.6.0", "node-fetch@^2.6.1", "node-fetch@2", "node-fetch@2.6.1":
   "integrity" "sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw=="
   "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz"
   "version" "2.6.1"
@@ -10550,7 +10558,7 @@
     "object-assign" "^4.1.0"
     "strict-uri-encode" "^1.0.0"
 
-"query-string@^6.13.1", "query-string@^6.13.8":
+"query-string@^6.11.0", "query-string@^6.13.1", "query-string@^6.13.8":
   "integrity" "sha512-XDxAeVmpfu1/6IjyT/gXHOl+S0vQ9owggJ30hhWKdHAsNPOcasn5o9BW0eejZqL2e4vMjhAxoW3jVHcD6mbcYw=="
   "resolved" "https://registry.npmjs.org/query-string/-/query-string-6.14.1.tgz"
   "version" "6.14.1"

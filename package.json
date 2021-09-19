@@ -6,6 +6,7 @@
   "author": "Joanna Tomassoni <jctomassoni@gmail.com>",
   "dependencies": {
     "@fontsource/fascinate": "^4.5.0",
+    "dotenv": "^8.6.0",
     "gatsby": "^3.11.1",
     "gatsby-background-image-es5": "^1.5.3",
     "gatsby-plugin-gatsby-cloud": "^2.11.0",
@@ -14,6 +15,7 @@
     "gatsby-plugin-offline": "^4.11.0",
     "gatsby-plugin-react-helmet": "^4.11.0",
     "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-source-bandsintown": "^1.0.0",
     "gatsby-source-filesystem": "^3.11.0",
     "gatsby-transformer-sharp": "^3.11.0",
     "prop-types": "^15.7.2",
