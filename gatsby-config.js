@@ -34,6 +34,7 @@ module.exports = {
     ]
   },
   plugins: [
+    require.resolve(`${__dirname}/plugins/gatsby-bandsintown-source-plugin`),
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -58,9 +59,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-background-image-es5`,
