@@ -8,7 +8,7 @@ const ShopPage = () => (
   <div>
   <Layout>
     <Seo title="Shop" />
-    <div class='m-auto p-4 flex align-middle'>
+    <div class='ml-48 mr-48 p-4 flex align-middle'>
       <p class='m-auto p-4'>
         <StaticImage
           src="https://picsum.photos/300"
@@ -16,6 +16,7 @@ const ShopPage = () => (
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="placeholder"
         />
+        <div>TODO: Link to shop for old album here</div>
       </p>
       <p class='m-auto p-4'>
         <StaticImage
@@ -24,6 +25,7 @@ const ShopPage = () => (
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="placeholder"
         />
+        <div>TODO: Link to Sinking City shop for new album here</div>
       </p>
     </div> 
   </Layout>
