@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <nav class='bg-black'>
+  <nav class='bg-gray-900'>
     <div class='my-0 mx-0 ml-8 w-11/12 py-6 flex justify-between'>
       <Link exact to="/">
         <p class='gold-text text-3xl font-title'>{siteTitle}</p>
