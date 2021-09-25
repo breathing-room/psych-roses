@@ -23,11 +23,11 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div class='max-h-screen'>
+    <div class='min-h-screen '>
       <Header siteTitle={data.site.siteMetadata?.title} />
       <div class='mx-auto my-1 text-center'>
         <main>{children}</main>
-        <footer class='mt-8 my-4 text-xs object-bottom'>
+        <footer class='mt-8 my-4 text-xs'>
           © {new Date().getFullYear()}
         </footer>
       </div>

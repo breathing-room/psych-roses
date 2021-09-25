@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
   return (
-    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6 bg-gray-900">
+    <nav class="flex items-center justify-between flex-wrap p-6 bg-gray-900">
       <div class="flex items-center flex-shrink-0 mr-6 pb-3">
         <Link to="/" class="font-semibold text-xl tracking-tight"><p class="gold-text text-3xl font-title">Psychedelic Roses</p></Link>
       </div>
