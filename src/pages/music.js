@@ -8,7 +8,7 @@ const MusicPage = () => (
   <div>
   <Layout>
     <Seo title="Releases" />
-    <div class='m-auto p-4 flex'>
+    <div class='m-auto p-4 flex lg:flex-row md:flex-col'>
       <MusicPlayer 
         embedUrl="https://bandcamp.com/EmbeddedPlayer/album=960835734/size=large/bgcol=333333/linkcol=e99708/transparent=true/"
         bandcampUrl="https://tascheandthepsychedelicroses.bandcamp.com/album/gold-rose"
