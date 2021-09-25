@@ -11,7 +11,7 @@ exports.sourceNodes = async ({
 }) => {
   const { createNode } = actions
 
-  const shows = await fetch("https://rest.bandsintown.com/artists/joannatomassoni/events/?app_id=5639901e1129574969f94455b77d147c")
+  const shows = await fetch("https://rest.bandsintown.com/artists/joannatomassoni/events/?app_id=5639901e1129574969f94455b77d147c&trigger=rsvp_going")
     .then((response) => response.json());
   
   shows.forEach(show =>

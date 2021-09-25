@@ -2,15 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
-import { additionalLineup } from '../utils/additionalLineup'
-
-const grid = {
-  display: 'grid',
-  gridTemplateColumns: 'repeat(2, 1fr) 3fr repeat(2, 1fr)',
-  gridTemplateRows: 'repeat(5, 1fr)',
-  gridColumnGap: '0px',
-  gridRowGap: '0px',
-}
+import { additionalLineup, allCaps } from '../utils/utils'
 
 const ShowsPage = () => {
   const data = useStaticQuery(graphql`
@@ -42,21 +34,18 @@ const ShowsPage = () => {
   return (
     <Layout>
       <Seo title="Shows" />
-      <h2 class='text-3xl m-4 p-4'>Upcoming shows</h2>
-      <div class='m-4 p-4'>
+      <div class='lg:p-6'>
           {
             shows.map((show) => {
-              console.log(show)
               let otherArtists = additionalLineup(show);
               let options = { weekday: 'short', month: 'short', day: 'numeric' };
               return (
-                // <div style={grid} class='ml-48 mr-48 border-t p-5'>
-                <div class='grid lg:grid-flow-col lg:ml-48 lg:mr-48 border-t p-5'>
-                  <div class='font-semibold'>{new Date(show.datetime).toLocaleString("en-US", options)}</div>
-                  <div>{show.venue.name}</div>
+                <div class='lg:grid lg:grid-flow-col lg:ml-48 lg:mr-48 pt-5'>
+                  <div class='font-bold text-yellow-300 my-2 lg:my-5'>{allCaps(new Date(show.datetime).toLocaleString("en-US", options))}</div>
+                  <div class='lg:my-5'>{show.venue.name}</div>
                   <div class='pl-16 pr-16'></div>
-                  <div>{show.venue.city}, {show.venue.region}</div>
-                  <div><a href={show.url}>Link</a></div>
+                  <div class='lg:my-5'>{show.venue.city}, {show.venue.region}</div>
+                  <button class='bg-yellow-500 hover:bg-yellow-700 font-bold py-2 px-2 rounded w-28 my-3 mx-auto'><a href={show.url}>RSVP</a></button>
                   { otherArtists.length ?
                     <div>{otherArtists}</div>
                     :
