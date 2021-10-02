@@ -4,6 +4,34 @@ exports.onPreInit = () => console.log("Loaded gatsby-starter-plugin")
 
 const NODE_TYPE = `Show`
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type Show implements Node {
+      artist: Artist,
+      datetime: Date,
+      id: ID,
+      title: String,
+      url: String,
+      venue: Venue,
+      lineup: [String],
+    },
+
+    type Artist implements Node {
+      id: ID,
+      name: String,
+      url: String,
+    }
+
+    type Venue implements Node {
+      name: String,
+      city: String,
+      region: String,
+    }
+  `
+  createTypes(typeDefs)
+}
+
 exports.sourceNodes = async ({
   actions,
   createContentDigest,
@@ -11,7 +39,7 @@ exports.sourceNodes = async ({
 }) => {
   const { createNode } = actions
 
-  const shows = await fetch("https://rest.bandsintown.com/artists/joannatomassoni/events/?app_id=5639901e1129574969f94455b77d147c&trigger=rsvp_going")
+  const shows = await fetch("https://rest.bandsintown.com/artists/id_13708959/events/?app_id=5639901e1129574969f94455b77d147c&trigger=rsvp_going")
     .then((response) => response.json());
   
   shows.forEach(show =>
@@ -27,6 +55,5 @@ exports.sourceNodes = async ({
       },
     })
   )
-
   return
 }
