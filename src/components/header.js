@@ -16,7 +16,7 @@ const Header = () => {
         </button>
       </div>
       <div className={`${ isExpanded ? `block` : `hidden` } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
-        <div class="absolute text-sm lg:flex-grow bg-gray-900 w-full">
+        <div class="sm:absolute md:relative lg:relative text-sm lg:flex-grow bg-gray-900 w-full">
           <Link to="/about" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4" activeClassName="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4">
             About
           </Link>
