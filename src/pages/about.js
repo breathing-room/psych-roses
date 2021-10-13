@@ -9,7 +9,7 @@ const AboutPage = () => (
     <Seo title="About" />
       <StaticImage
         src="https://picsum.photos/300"
-        class="m-8 p-4"
+        class="m-8 p-4 relative z-0"
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="placeholder"
       />
