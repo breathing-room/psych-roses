@@ -24,12 +24,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div class='min-h-screen flex flex-col justify-between'>
+    <div>
       <Header siteTitle={data.site.siteMetadata?.title} />
-      <div class='mx-auto my-1 text-center'>
-        <main>{children}</main>
-      </div>
-      <Footer />
+        <main class='mx-auto text-center'>{children}</main>
+        <Footer />
     </div>
   )
 }

@@ -9,10 +9,18 @@ const IndexPage = () => (
     <Layout>
       <Seo title="Home" />
       <StaticImage
-        src="https://picsum.photos/1050"
-        class="m-0 p-0 max-h-screen"
+        src="../images/oej-gold-dress.jpg"
+        layout="constrained"
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="placeholder"
+        class='hidden md:block lg:block w-screen'
+        />
+      <StaticImage
+        src="../images/oej-gold-dress-cropped.jpg"
+        layout="constrained"
+        formats={["AUTO", "WEBP", "AVIF"]}
+        alt="placeholder"
+        class="md:hidden lg:hidden w-screen"
       />
     </Layout>
   </div>
