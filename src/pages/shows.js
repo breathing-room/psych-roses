@@ -36,7 +36,7 @@ const ShowsPage = () => {
       <Seo title="Shows" />
       <div class='lg:p-6'>
           {
-            shows.map((show) => {
+            shows.length ? shows.map((show) => {
               let otherArtists = additionalLineup(show);
               let options = { weekday: 'short', month: 'short', day: 'numeric' };
               return (
@@ -54,6 +54,7 @@ const ShowsPage = () => {
                 </div>
               )
             })
+            : <div class='text-md p-0'>No upcoming shows right now! Stay tuned...</div>
           }
       </div>
     </Layout>
