@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Joanna Tomassoni <jctomassoni@gmail.com>",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
     "@fontsource/fascinate": "^4.5.0",
     "dotenv": "^8.6.0",
     "gatsby": "^3.14.0",
