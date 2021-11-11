@@ -10,7 +10,7 @@ const AboutPage = () => (
     <div class='flex flex-col md:flex-row lg:flex-row'>
       <StaticImage
         src="../images/bio-photo.jpg"
-        width={350}
+        width={300}
         class="m-8 z-0"
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Tasche de la Rocha"
