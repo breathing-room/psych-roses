@@ -54,7 +54,7 @@ const ShowsPage = () => {
                 </div>
               )
             })
-            : <div class='text-md p-0'>No upcoming shows right now! Stay tuned...</div>
+            : <p class='text-md p-4'>No upcoming shows right now! Stay tuned...</p>
           }
       </div>
     </Layout>
