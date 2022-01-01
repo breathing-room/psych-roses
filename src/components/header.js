@@ -26,30 +26,28 @@ const Header = () => {
       {/* sidebar */}
       <div class={`h-full bg-gray-900 w-64 
         absolute inset-y-0 inset-left-0 
-        transform transition duration-200 ease-in-out z-50 ${ isExpanded ? `-translate-x-0` : `-translate-x-full`}`}>
-        <nav>
-          <div>
-            <Link to="/" class="hover:bg-red-400">
-              <svg class="h-6 m-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-              </svg>
-            </Link>
-            <Link to="/about" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
-              About
-            </Link>
-            <Link to="/shows" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
-              Shows
-            </Link>
-            <Link to="/press" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
-              Press
-            </Link>
-            <Link to="/music" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
-              Music
-            </Link>
-            <Link to="/shop" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
-              Shop
-            </Link>
-          </div>
+        transform transition duration-200 ease-in-out z-50 ${ isExpanded ? `-translate-x-0` : `-translate-x-0`}`}>
+        <nav class='flex flex-col'>
+          <Link to="/" class="hover:bg-red-400">
+            <svg class="h-6 m-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+            </svg>
+          </Link>
+          <Link to="/about" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+            About
+          </Link>
+          <Link to="/shows" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+            Shows
+          </Link>
+          <Link to="/press" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+            Press
+          </Link>
+          <Link to="/music" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+            Music
+          </Link>
+          <Link to="/shop" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+            Shop
+          </Link>
         </nav>
       </div>
     </div>
