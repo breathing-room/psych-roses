@@ -26,7 +26,7 @@ const Header = () => {
       {/* sidebar */}
       <div class={`h-full bg-gray-900 w-64 
         absolute inset-y-0 inset-left-0 
-        transform transition duration-200 ease-in-out z-50 ${ isExpanded ? `-translate-x-0` : `-translate-x-0`}`}>
+        transform transition duration-200 ease-in-out z-50 ${ isExpanded ? `-translate-x-0` : `-translate-x-full`}`}>
         <nav class='flex flex-col'>
           <Link to="/" class="hover:bg-red-400">
             <svg class="h-6 m-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
