@@ -24,10 +24,13 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div class='flex flex-col min-h-screen'>
+    <div class='relative min-h-screen flex-col'>
       <Header siteTitle={data.site.siteMetadata?.title} />
-      <main class='mx-auto text-center flex-1'>{children}</main>
-      <Footer />
+      <div class='flex-col flex-1'>
+        {/* <main class="text-white mx-auto text-center">content here</main> */}
+        <main class='flex-col mx-auto text-center'>{children}</main>
+        <Footer />
+      </div>
     </div>
   )
 }

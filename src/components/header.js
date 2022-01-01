@@ -1,39 +1,58 @@
-import React, { useState } from "react"
+import React, { useState, useRef } from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
   return (
-    <nav class="flex items-center justify-between flex-wrap bg-gray-900 pb-5 md:pb-0 lg:pb-0">
-      <div class="flex items-center flex-shrink-0 p-5 pb-3">
-        <Link to="/" class="font-semibold text-xl tracking-tight"><p class="gold-text text-3xl font-title">Psychedelic Roses</p></Link>
-      </div>
-      <div class="block lg:hidden pl-5 pr-5">
-        <button onClick={() => toggleExpansion(!isExpanded)} class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    <div>
+      {/* menu buttons */}
+      <div class="bg-gray-800 flex justify-between">
+        {/* icon button */}
+        <Link to="/" class="hover:bg-red-400">
+          <svg class="h-6 m-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </Link>
+        {/* title */}
+        <Link to="/"><div class="gold-text font-title text-xl m-3">Psychedelic Roses</div></Link>
+        {/* hamburger menu button */}
+        <button onClick={() => toggleExpansion(!isExpanded) } class="hover:bg-red-400 menu-button">
+          <svg xmlns="http://www.w3.org/2000/svg" class='h-6 m-4' fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
         </button>
       </div>
-      <div className={`${ isExpanded ? `block` : `hidden` } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}>
-        <div class="absolute sm:absolute md:absolute lg:relative text-sm lg:flex-grow bg-gray-900 w-full pl-5 pb-5 lg:pb-0 z-50">
-          <Link to="/about" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4" activeClassName="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4">
-            About
-          </Link>
-          <Link to="/shows" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4" activeClassName="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4">
-            Shows
-          </Link>
-          <Link to="/press" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4" activeClassName="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4">
-            Press
-          </Link>
-          <Link to="/music" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4" activeClassName="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4">
-            Music
-          </Link>
-          <Link to="/shop" class="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4" activeClassName="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4">
-            Shop
-          </Link>
-        </div>
+      {/* sidebar */}
+      <div class={`h-full bg-gray-900 w-64 
+        absolute inset-y-0 inset-left-0 
+        transform transition duration-200 ease-in-out z-50 ${ isExpanded ? `-translate-x-full` : `-translate-x-0`}`}>
+        <nav>
+          <div class="">
+            <Link to="/" class="hover:bg-red-400">
+              <svg class="h-6 m-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              </svg>
+            </Link>
+            <Link to="/about" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+              About
+            </Link>
+            <Link to="/shows" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+              Shows
+            </Link>
+            <Link to="/press" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+              Press
+            </Link>
+            <Link to="/music" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+              Music
+            </Link>
+            <Link to="/shop" class="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+              Shop
+            </Link>
+          </div>
+        </nav>
       </div>
-    </nav>
+    </div>
   )
 }
 
