@@ -24,7 +24,7 @@ const Header = () => {
         </button>
       </div>
       {/* sidebar */}
-      <div class={`h-full bg-gray-900 w-64 
+      <div class={`h-full bg-gray-900 w-80
         absolute inset-y-0 inset-left-0 
         transform transition duration-200 ease-in-out z-50 ${ isExpanded ? `-translate-x-0` : `-translate-x-full`}`}>
         <nav class='flex flex-col'>
