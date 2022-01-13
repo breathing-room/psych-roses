@@ -35,20 +35,17 @@ const IndexPage = () => {
     },
   ])
   return (
-    <div>
-      <Layout>
-        <Seo title="Home" />
-        <div class="flex-col">
-          <p>calls to action for new album here:</p>
-          <div class="flex place-content-center">
-            <p class="p-2">stream music</p>
-            <p class="p-2">buy stuff</p>
-          </div>
-        </div>
-        {/* <GatsbyImage image={images}/> */}
-        <GatsbyImage image={getImage(nodes[1])} alt="image alt"/>
-      </Layout>
-    </div>
+    <Layout>
+      <Seo title="Home" />
+      <div class="flex-col mx-auto md:flex-row w-40">
+        {/* <div class="flex-col w-40 items-center md:flex md:place-content-center md:space-x-4 md:mb-6"> */}
+          <p class="p-2 border-2 mb-4 hover:bg-red-400 font-semibold hover:cursor-pointer">STREAM MUSIC</p>
+          <p class="p-2 border-2 mb-4 hover:bg-red-400 font-semibold hover:cursor-pointer">BUY STUFF</p>
+        {/* </div> */}
+      </div>
+      {/* <GatsbyImage image={images}/> */}
+      <GatsbyImage image={getImage(nodes[1])} alt="image alt"/>
+    </Layout>
   )
 }
 
