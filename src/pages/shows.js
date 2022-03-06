@@ -28,9 +28,9 @@ const ShowsPage = () => {
       }
     }
   `)
-  
+
   const shows = data.allShow.nodes
-  
+
   return (
     <Layout>
       <Seo title="Shows" />
