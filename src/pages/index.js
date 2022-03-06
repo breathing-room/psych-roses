@@ -4,36 +4,7 @@ import Seo from "../components/seo"
 import { graphql, useStaticQuery } from "gatsby"
 import { GatsbyImage, StaticImage, getImage, withArtDirection } from "gatsby-plugin-image"
 
-const IndexPage = () => {
-  const {
-    allFile: { nodes }
-  } = useStaticQuery(graphql`
-    query {
-      allFile(
-        filter: {
-          sourceInstanceName: { eq: "indexImages" }
-          ext: { eq: ".jpg" }
-        }
-        sort: { fields: name, order: DESC }
-      ) {
-        nodes {
-          name
-          sourceInstanceName
-          childImageSharp {
-            gatsbyImageData(
-              layout: FULL_WIDTH
-            )
-          }
-        }
-      }
-    }
-  `)
-  const images = withArtDirection(getImage(nodes[1]), [
-    {
-      media: "(max-width: 700px)",
-      image: getImage(nodes[0]),
-    },
-  ])
+const IndexPage = ({data}) => {
   return (
     <Layout>
       <Seo title="Home" />
@@ -43,10 +14,23 @@ const IndexPage = () => {
           <p class="p-2 border-2 mb-4 hover:bg-red-400 font-semibold hover:cursor-pointer">BUY STUFF</p>
         {/* </div> */}
       </div>
-      {/* <GatsbyImage image={images}/> */}
-      <GatsbyImage image={getImage(nodes[1])} alt="image alt"/>
+      <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)}/>
     </Layout>
   )
 }
 
 export default IndexPage
+
+export const query = graphql`
+  query IndexImage {
+    file(relativePath: {eq: "oej-gold-dress-cropped.jpg"}) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]
+        )
+      }
+    }
+  }
+`
