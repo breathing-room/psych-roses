@@ -6,6 +6,10 @@ module.exports = {
     description: `New Orleans-based psych dream rock'n'roll`,
     author: `Joanna Tomassoni`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    social: {
+      name: "",
+      url: "https://www.google.com"
+    },
     menuLinks: [
       {
         name: 'home',
@@ -37,6 +41,8 @@ module.exports = {
     require.resolve(`${__dirname}/plugins/gatsby-bandsintown-source-plugin`),
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -44,8 +50,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `carouselImages`,
+        path: `${__dirname}/src/images/carouselImages`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
