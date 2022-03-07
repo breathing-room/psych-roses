@@ -35,6 +35,10 @@ module.exports = {
         name: 'shop',
         link: '/shop',
       },
+      {
+        name: 'photos',
+        link: '/photos',
+      },
     ]
   },
   plugins: [
