@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { graphql } from "gatsby"
+// import { GatsbyImage } from "gatsby-plugin-image"
+
 
 import Gallery from '@browniebroke/gatsby-image-gallery'
 
@@ -18,6 +20,13 @@ const PhotosPage = ({ data }) => {
           colWidth={100}
           mdColWidth={30}
         />
+        {/* {
+          images.map((image) => {
+            <div data-sal>
+              <GatsbyImage image={image} />
+            </div>
+          })
+        } */}
       </div>
     </Layout>
   </div>
