@@ -23,10 +23,10 @@ export default IndexPage
 
 export const query = graphql`
   query IndexImage {
-    file(relativePath: {eq: "oej-gold-dress-cropped.jpg"}) {
+    file(relativePath: {eq: "IMG_1733 copy.jpg"}) {
       childImageSharp {
         gatsbyImageData(
-          layout: FULL_WIDTH
+          # layout: FULL_WIDTH
           placeholder: BLURRED
           formats: [AUTO, WEBP]
         )
