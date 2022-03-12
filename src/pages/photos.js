@@ -23,7 +23,6 @@ const PhotosPage = ({ data }) => {
       <div class="mx-auto max-w-4xl">
         <Slider {...settings}>
           {data.slideShow.edges.map((image) => {
-            console.log(image)
             return (
               <div>
                 <Img key={image.node} fluid={image.node.childImageSharp.fluid} alt="image"/>
