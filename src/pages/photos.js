@@ -2,31 +2,35 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { graphql } from "gatsby"
-// import { GatsbyImage } from "gatsby-plugin-image"
+import Img from "gatsby-image"
 
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-import Gallery from '@browniebroke/gatsby-image-gallery'
+const settings = {
+  dots: true,
+  infinite: true,
+  autoplay: true,
+}
 
 const PhotosPage = ({ data }) => {
-  console.log(data)
-  const images = data.slideShow.edges.map(({ node }) => node.childImageSharp)
+
   return (
   <div class="mx-auto">
     <Layout>
       <Seo title="Photos" />
       <div class="mx-auto max-w-4xl">
-        <Gallery
-          images={images}
-          colWidth={100}
-          mdColWidth={30}
-        />
-        {/* {
-          images.map((image) => {
-            <div data-sal>
-              <GatsbyImage image={image} />
-            </div>
-          })
-        } */}
+        <Slider {...settings}>
+          {data.slideShow.edges.map((image) => {
+            console.log(image)
+            return (
+              <div>
+                <Img key={image.node} fluid={image.node.childImageSharp.fluid} alt="image"/>
+              </div>
+            )
+          })}
+        </Slider>
       </div>
     </Layout>
   </div>
@@ -44,21 +48,10 @@ export const query = graphql`
       edges {
         node {
           id
-          base
           childImageSharp {
-            thumb: gatsbyImageData(
-              width: 270
-              height: 270
-              placeholder: BLURRED
-            )
-            full: gatsbyImageData(layout: FULL_WIDTH)
-            gatsbyImageData(
-              width: 900
-              height: 600
-              placeholder: BLURRED
-              quality: 70
-              blurredOptions: {width: 100}
-            )
+            fluid(quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
           }
         }
       }
