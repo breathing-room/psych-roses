@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div>
       {/* menu buttons */}
-      <div class="bg-gray-800 flex justify-between">
+      <div class="bg-black flex justify-between">
         {/* icon button */}
         <Link to="/" class="hover:bg-red-400">
           <svg class="h-6 m-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
