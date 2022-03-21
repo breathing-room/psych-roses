@@ -9,8 +9,8 @@ const AboutPage = () => (
     <Seo title="About" />
     <div class='flex md:flex-row lg:flex-row justify-center'>
       <StaticImage
-        src="../images/bio-photo.jpg"
-        width={300}
+        src="../images/IMG_3980.jpg"
+        width={500}
         class="m-8 z-0"
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Tasche de la Rocha"
