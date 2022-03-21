@@ -1,6 +1,7 @@
-import React, { useState, useRef } from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -15,7 +16,15 @@ const Header = () => {
           </svg>
         </Link>
         {/* title */}
-        <Link to="/"><div class="gold-text font-title text-xl m-3">Psychedelic Roses</div></Link>
+        <Link to="/"><div class="gold-text font-title text-xl m-3">
+          <StaticImage
+            src="../images/tempLogoTransparent.png"
+            width={250}
+            class="z-0"
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Logo"
+          />
+        </div></Link>
         {/* hamburger menu button */}
         <button onClick={() => toggleExpansion(!isExpanded) } class="hover:bg-red-400 menu-button">
           <svg xmlns="http://www.w3.org/2000/svg" class='h-6 m-4' fill="none" viewBox="0 0 24 24" stroke="currentColor">
