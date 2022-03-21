@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'gold-foil': "url('/images/gold-foil.jpg')",
+        'space': "url('../images/background-images/17086.jpg')",
        }),
     },
     fontFamily: {

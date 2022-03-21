@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div class='relative min-h-screen flex-col'>
+    <div class='relative min-h-screen flex-col bg-space'>
       <Header siteTitle={data.site.siteMetadata?.title} />
       <div class='flex-col flex-1'>
         {/* <main class="text-white mx-auto text-center">content here</main> */}
