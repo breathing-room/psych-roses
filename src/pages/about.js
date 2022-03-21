@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <Seo title="About" />
-    <div class='flex flex-col md:flex-row lg:flex-row'>
+    <div class='flex md:flex-row lg:flex-row justify-center'>
       <StaticImage
         src="../images/bio-photo.jpg"
         width={300}
@@ -15,9 +15,12 @@ const AboutPage = () => (
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Tasche de la Rocha"
         />
-      <div class='m-4 p-4 mx-auto max-w-3xl leading-normal tracking-wide'>
-        <p class='m-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla laoreet interdum. Maecenas a vehicula arcu, in tincidunt risus. Proin mollis nunc vel velit commodo rutrum. Donec dolor felis, fermentum in nisl vitae, auctor aliquet lectus. Duis erat augue, laoreet eu orci in, viverra ultrices augue. Phasellus viverra erat sed mi eleifend euismod. Nam vel iaculis ex. In tempus libero sodales placerat facilisis.</p>
-        <p>Nulla sodales pulvinar est id volutpat. Curabitur sit amet ligula posuere, ultricies quam id, venenatis magna. Etiam enim mauris, maximus sed odio id, feugiat egestas odio. Maecenas id nisi eget magna lacinia tempus id nec purus. Proin in varius mauris. Proin mattis tellus ac ligula aliquet tristique. Nullam pretium metus tortor, ac semper ligula porta et. Nunc sed erat arcu. Fusce convallis magna et nisi ultrices pulvinar. Aliquam a commodo neque, quis ullamcorper arcu. Sed facilisis leo a ante laoreet convallis. </p>
+      <div class='p-4 max-w-3xl leading-normal tracking-wide'>
+        <p class='m-5'>Forged by the rhythm of their home base in New Orleans, Tasche and the Psychedelic Roses sculpt sound and ardor, evolving away from the roots of R&B and gospel into a world of rock n roll with twinges of punk and grunge, the rare combination of freshness and timelessness. Rising up in the DIY scene of New Orleans, they’ve attracted a passionate zealous following through word of mouth for their energetic performance spectacles. </p>
+        <p class='m-5'>Their inimitable soulful vocals with 4-part harmonies and demented musical palette melds a elegance and ferocity, coalescing into a singular genre that weaves doo-wop and glitter-gore with a psychedelic surf/punk edge.</p>
+        <p class='m-5'>Band leader and producer Tasche de la Rocha began her music career as a teen on the streets of New Orleans, and quickly found recognition for her rare sound, being invited to play solo house concerts for Laurie Anderson and Jennifer Coolidge. In her acclaimed debut album Gold Rose, Tasche collaborated with Joseph Faison, out of which grew the full 8-piece band Psychedelic Roses. </p>
+        <p class='m-5'>Tasche and the Psychedelic Roses’ upcoming self-titled album will soon be released in August 2022 on local New Orleans label Sinking City, and is produced and engineered by Eric Heigle, known for his work with Arcade Fire, Dr. John, Dawn Richard, and Lost Bayou Ramblers amongst others.</p>
+        <p class='m-5'>Psych Roses’ feminist alchemy slays from rags to psychedelic riches, a phoenix from the ashes of garage rock to the temple of maniacal joy.</p>
       </div>
     </div>
   </Layout>
