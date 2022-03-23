@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title} />
       <div class='flex-col flex-1'>
         {/* <main class="text-white mx-auto text-center">content here</main> */}
-        <main class='flex-col mx-auto text-center'>{children}</main>
+        <main class='flex-col pt-10 mx-auto text-center'>{children}</main>
         <Footer />
       </div>
     </div>
