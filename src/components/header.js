@@ -30,7 +30,7 @@ const Header = () => {
       </div>
 
       {/* Sidebar */}
-      <div class={`h-full bg-gray-900 w-full md:w-80
+      <div class={`h-full w-full md:w-80 bg-gradient-to-l from-gray-900 to-transparent
         absolute inset-y-0 inset-left-0
         transform transition duration-200 ease-in-out z-50 text-center ${ isExpanded ? `-translate-x-0` : `-translate-x-full`}`}>
 
