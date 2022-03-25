@@ -7,13 +7,14 @@ const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
   return (
     <div class="fixed h-full z-50">
-      {/* hamburger menu button */}
+      {/* Hamburger menu button */}
        <button onClick={() => toggleExpansion(!isExpanded) } class={`hover:bg-red-400 menu-button fixed top-0 right-0 m-0` }>
           <svg xmlns="http://www.w3.org/2000/svg" class='h-6 m-4' fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-      {/* menu buttons */}
+
+      {/* Logo */}
       <div class="flex">
         {/* logo */}
         <Link to="/"><div class="m-3">
@@ -26,11 +27,18 @@ const Header = () => {
           />
         </div></Link>
       </div>
-      {/* sidebar */}
+
+      {/* Sidebar */}
       <div class={`h-full bg-gray-900 w-80
         absolute inset-y-0 inset-left-0
         transform transition duration-200 ease-in-out z-50 text-center ${ isExpanded ? `-translate-x-0` : `-translate-x-full`}`}>
-        <button onClick={() => toggleExpansion(!isExpanded) } class="text-xl block text-right cursor-pointer text-white py-3 px-4 hover:bg-red-400">X</button>
+
+        {/* Close menu button */}
+        <div class="flex justify-end">
+          <button onClick={() => toggleExpansion(!isExpanded) } class="text-xl block cursor-pointer py-3 px-5 hover:bg-red-400"><strong>X</strong></button>
+        </div>
+
+        {/* Menu items */}
         <nav class='h-full flex flex-col items-center'>
           <Link to="/about" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
             About
