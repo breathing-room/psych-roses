@@ -8,13 +8,13 @@ const IndexPage = ({data}) => {
   return (
     <Layout>
       <Seo title="Home" />
-      <div class="flex mx-auto md:flex-row w-40">
+        <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)}/>
+        <div class="flex mx-auto md:flex-row w-40">
         {/* <div class="flex-col w-40 items-center md:flex md:place-content-center md:space-x-4 md:mb-6"> */}
           <p class="p-2 border-2 mb-4 hover:bg-red-400 font-semibold hover:cursor-pointer">STREAM MUSIC</p>
           <p class="p-2 border-2 mb-4 hover:bg-red-400 font-semibold hover:cursor-pointer">BUY STUFF</p>
         {/* </div> */}
-      </div>
-      <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)}/>
+        </div>
     </Layout>
   )
 }

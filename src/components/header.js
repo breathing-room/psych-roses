@@ -17,8 +17,8 @@ const Header = () => {
       </div>
 
       {/* Logo */}
-      <div class="flex">
-        <Link to="/"><div class="hidden md:flex align-middle">
+      <div class="flex justify-center pb-10 md:pb-0">
+        <Link to="/"><div class="flex align-middle">
           <StaticImage
             src="../images/tempLogoTransparent.png"
             width={150}
