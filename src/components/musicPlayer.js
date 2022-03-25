@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 
 const MusicPlayer = ({ embedUrl, bandcampUrl, title }) => (
-  <iframe 
+  <iframe
     style={{border: 0, width: "350px", height: "700px"}}
     src={embedUrl} seamless
     class="m-auto flex"
