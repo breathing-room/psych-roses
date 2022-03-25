@@ -6,21 +6,22 @@ import { StaticImage } from "gatsby-plugin-image"
 const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
   return (
-    <div class="fixed h-full z-50">
+    <div class="h-full z-50">
       {/* Hamburger menu button */}
-       <button onClick={() => toggleExpansion(!isExpanded) } class={`hover:bg-red-400 menu-button fixed top-0 right-0 m-0` }>
+      <div class="flex justify-end">
+       <button onClick={() => toggleExpansion(!isExpanded) } class={`hover:bg-red-400 md:fixed self-end top-0 right-0 m-0` }>
           <svg xmlns="http://www.w3.org/2000/svg" class='h-6 m-4' fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
+      </div>
 
       {/* Logo */}
       <div class="flex">
-        {/* logo */}
-        <Link to="/"><div class="m-3">
+        <Link to="/"><div class="hidden md:flex align-middle">
           <StaticImage
             src="../images/tempLogoTransparent.png"
-            width={250}
+            width={150}
             class="z-0"
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Logo"
@@ -29,12 +30,12 @@ const Header = () => {
       </div>
 
       {/* Sidebar */}
-      <div class={`h-full bg-gray-900 w-80
+      <div class={`h-full bg-gray-900 w-full md:w-80
         absolute inset-y-0 inset-left-0
         transform transition duration-200 ease-in-out z-50 text-center ${ isExpanded ? `-translate-x-0` : `-translate-x-full`}`}>
 
         {/* Close menu button */}
-        <div class="flex justify-end">
+        <div class="flex justify-center md:justify-end">
           <button onClick={() => toggleExpansion(!isExpanded) } class="text-xl block cursor-pointer py-3 px-5 hover:bg-red-400"><strong>X</strong></button>
         </div>
 
