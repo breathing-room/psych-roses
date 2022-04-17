@@ -28,8 +28,8 @@ module.exports = {
         link: '/music',
       },
       {
-        name: 'press',
-        link: '/press',
+        name: 'epk',
+        link: '/epk',
       },
       {
         name: 'shop',

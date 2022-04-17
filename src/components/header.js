@@ -41,9 +41,9 @@ const Header = () => {
 
         {/* Menu items */}
         <nav class='h-full flex flex-col items-center'>
-          <Link to="/about" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
+          {/* <Link to="/about" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
             About
-          </Link>
+          </Link> */}
           <Link to="/shows" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
             Shows
           </Link>
