@@ -11,10 +11,19 @@
   }
 }
 
-.gold-text {
+/* .gold-text {
   color:#fbbf24;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: url(../images/gold-foil.jpg);
+} */
+
+.slick-prev, .slick-next {
+  font-size: 15px !important;
+  padding: 5rem;
+}
+
+ .slick-prev:before, .slick-next:before  {
+  content: '' !important;
 }
