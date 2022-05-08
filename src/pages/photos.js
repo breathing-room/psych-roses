@@ -5,6 +5,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import Gallery from 'react-photo-gallery'
 
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
@@ -45,7 +46,7 @@ const NextArrow = (props) => {
 
 const settings = {
   infinite: true,
-  // adaptiveHeight: true,
+  adaptiveHeight: true,
   fade: true,
   prevArrow: <PrevArrow/>,
   nextArrow: <NextArrow/>,
@@ -78,11 +79,21 @@ const settings = {
 }
 
 const PhotosPage = ({ data }) => {
+  console.log(data.slideShow.edges)
+  const galleryPhotos = data.slideShow.edges.map((image) => {
+    console.log(image)
+    return {
+      srcSet: image.node.childImageSharp.fluid.srcSet
+    }
+  })
+
+  console.log(galleryPhotos)
   return (
     <div class="mx-auto">
       <Layout>
         <Seo title="Photos" />
-        <div class="mx-auto max-w-3xl max-h-24">
+        {/* desktop view -- carousel*/}
+        <div class="hidden md:block mx-auto max-w-3xl max-h-24">
           <Slider {...settings}>
             {data.slideShow.edges.map((image) => {
               return (
@@ -92,6 +103,11 @@ const PhotosPage = ({ data }) => {
               )
             })}
           </Slider>
+        </div>
+        {/* mobile view -- gallery/scroll */}
+        <div class="block md:hidden">
+          <Gallery photos={galleryPhotos}/>
+
         </div>
       </Layout>
     </div>
