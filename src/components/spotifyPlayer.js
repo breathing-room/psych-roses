@@ -38,9 +38,11 @@
      return (
 
        <iframe title="Spotify"
-               src="https://open.spotify.com/embed/playlist/0sz2J5ZVROxMv3ZkVMTKuw?si=Tg-Dup3iQ7ivdIGo1R5fAQ"
+               src="https://open.spotify.com/embed/album/1c5wv4ZOmfz6mRtcI2pUw4?utm_source=generato"
                width="300" height="380" frameborder="0" allowtransparency="true"
-               allow="encrypted-media">
+               allow="encrypted-media autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+               allowfullscreen=""
+      >
        </iframe>
      )
    }

@@ -60,12 +60,7 @@ const PressPage = () => (
             </div>
             {/* Songs */}
             <div class="m-2">
-              <SpotifyPlayer
-                uri="spotify:album:1c5wv4ZOmfz6mRtcI2pUw4"
-                size="large"
-                theme="black"
-                view="list"
-              />
+              <SpotifyPlayer/>
             </div>
           </div>
         </div>
