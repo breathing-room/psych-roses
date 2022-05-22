@@ -15,7 +15,7 @@ const PressPage = () => (
         <div class="flex flex-col w-9/10 justify-between">
           {/* Bio */}
           <div class="bg-gray-900">
-            <p class='m-5 text-lg text-red-400 font-bold'>Who are the Psychedelic Roses?</p>
+            <p class='m-5 text-lg text-red-400 font-bold'>Bio</p>
             <p class='m-5'>Forged in the rhythm, joy, and despair of New Orleans, <strong>Tasche and the Psychedelic Roses</strong> deploy four part vocal harmonies, grunge guitar riffs, and elements of punk, doo wop, surf, cabaret, and psychedelia, all the while swaying on a thin wire between sweetness and destruction.</p>
             <p class='m-5'>Throughout the 10 tracks on their self-titled album, band leader and producer Tasche de la Rocha guides the Psychedelic Roses as they build, burn, and rise again. She is equally at home coming together in close harmony with the Angels (as her three backup singers are known) as she is shredding over waves of distortion as one of the three guitarists in the group.</p>
             <p class='m-5'>Tasche began her music career as a teen busking solo on the streets of New Orleans, and quickly found recognition for her singular voice and guitar sound, even being invited to play solo house concerts for Laurie Anderson and Jennifer Coolidge. On her acclaimed solo debut album, 2016’s <i>Gold Rose</i>, Tasche collaborated with Joseph Faison, out of which grew the full eight-piece band the Psychedelic Roses.</p>
@@ -29,7 +29,7 @@ const PressPage = () => (
           {/* Contact */}
           <div class="bg-gray-900 flex-col w-full self-center items-center">
             <h4 class='m-5 text-lg text-red-400 font-bold'>How to get in touch</h4>
-            <p class='m-5'>taschedelarocha@gmail.com</p>
+            <p class='m-5'>taschedelarochamusic@gmail.com</p>
           </div>
         </div>
         <div class="flex flex-col items-center">
