@@ -13,7 +13,7 @@ const IndexPage = ({data}) => {
           <p class="m-5 text-4xl font-bold'">
             NEW ALBUM COMING OCTOBER 2022
           </p>
-          <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)}/>
+          <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)} alt="Album cover"/>
         </div>
         <div class="flex mx-auto md:flex-row w-40">
         {/* <div class="flex-col w-40 items-center md:flex md:place-content-center md:space-x-4 md:mb-6"> */}
