@@ -23,7 +23,7 @@ const PressPage = () => (
             <p class='m-5'>Tasche and the Psychedelic Roses rock with a wild abandon and channel a feminist alchemy. It’s a soundtrack for the moment - make out sessions, quiet contemplation, and fighting the demons around us.</p>
           </div>
           {/* Video */}
-          <div class="flex p-5 justify-center">
+          <div class="hidden p-5 justify-center">
             <Video videoSrcURL="https://www.youtube.com/embed/ScMzIvxBSi4" videoTitle="Placeholder"/>
           </div>
           {/* Contact */}
