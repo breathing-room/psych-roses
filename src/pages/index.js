@@ -10,7 +10,7 @@ const IndexPage = ({data}) => {
       <Seo title="Home" />
         {/* replace with new album photo */}
         <div class="w-9/12 mx-auto">
-          <p class="m-5 text-4xl font-bold'">
+          <p class="m-5 text-4xl font-bold text-red-400 pb-5">
             NEW ALBUM COMING OCTOBER 2022
           </p>
           <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)} alt="Album cover"/>
