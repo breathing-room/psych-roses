@@ -48,7 +48,7 @@ const ShowsPage = () => {
                   <div class="md:inline md:p-2 text-red-400">
                     {show.city}
                   </div>
-                  <div class="md:inline md:p-2 text-red-400">
+                  <div class="md:inline md:p-2">
                     <strong>{show.description}</strong>
                   </div>
                 </div>
