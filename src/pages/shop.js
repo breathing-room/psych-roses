@@ -8,7 +8,7 @@ const ShopPage = () => (
   <div>
   <Layout>
     <Seo title="Shop" />
-    <div class='lg:ml-48 lg:mr-48 p-4 lg:flex'>
+    {/* <div class='lg:ml-48 lg:mr-48 p-4 lg:flex'>
       <p class='m-auto p-4'>
         <StaticImage
           src="https://picsum.photos/300"
@@ -27,7 +27,8 @@ const ShopPage = () => (
         />
         <div>TODO: Link to Sinking City shop for new album here</div>
       </p>
-    </div> 
+    </div>  */}
+     <div class='m-5 text-4xl font-bold text-red-400 pb-5'>Coming soon!</div>
   </Layout>
   </div>
 )
