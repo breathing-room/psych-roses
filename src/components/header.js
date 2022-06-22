@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { SocialIcon } from 'react-social-icons';
 
 const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -60,6 +61,12 @@ const Header = () => {
           <Link to="/epk" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-400 transition duration:200">
             EPK
           </Link>
+          <div>
+            <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{margin: "1rem", width: "35px", height: "35px"}} url="https://open.spotify.com/artist/0Im7zcYdMp1snHs6JmrB9M?si=RnqkTi0gSJuGTaSAosUdJQ" />
+            <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{margin: "1rem", width: "35px", height: "35px"}} url="https://www.facebook.com/taschedelarocha" />
+            <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{margin: "1rem", width: "35px", height: "35px"}} url="https://www.instagram.com/tascheandthepsychedelicroses/" />
+            <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{margin: "1rem", width: "35px", height: "35px"}} url="mailto:taschedelarochamusic@gmail.com" />
+          </div>
         </nav>
       </div>
     </div>
