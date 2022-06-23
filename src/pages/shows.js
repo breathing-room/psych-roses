@@ -1,11 +1,11 @@
-import * as React from "react"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import * as React from 'react';
+import Layout from '../components/layout';
+import Seo from '../components/seo';
 // import { useStaticQuery, graphql } from "gatsby"
 // import { additionalLineup, allCaps } from '../utils/utils'
 const shows = require('../data/showsData.json');
 
-const ShowsPage = () => {
+function ShowsPage() {
   // const data = useStaticQuery(graphql`
   //   query MyQuery {
   //     allShow {
@@ -29,36 +29,35 @@ const ShowsPage = () => {
   //     }
   //   }
   // `)
-  const today = new Date()
+  const today = new Date();
 
   return (
     <Layout>
       <Seo title="Shows" />
-      <div class='lg:p-6'>
+      <div className="lg:p-6">
         {
           shows.length ? shows.map((show) => {
-            const date = new Date(show.date)
-            console.log(new Date(show.date))
+            const date = new Date(show.date);
+            console.log(new Date(show.date));
             if (date >= today) {
               return (
-                <div class="w-9/10 p-2">
-                  <div class="md:inline md:p-2">
+                <div className="w-9/10 p-2">
+                  <div className="md:inline md:p-2">
                     <i>{show.date}</i>
                   </div>
-                  <div class="md:inline md:p-2 text-red-400">
+                  <div className="md:inline md:p-2 text-red-400">
                     {show.city}
                   </div>
-                  <div class="md:inline md:p-2">
+                  <div className="md:inline md:p-2">
                     <strong>{show.description}</strong>
                   </div>
                 </div>
-              )
+              );
             }
           })
-          :
-          "No shows"
+            : 'No shows'
         }
-          {/* {
+        {/* {
             shows.length ? shows.map((show) => {
               let otherArtists = additionalLineup(show);
               let options = { weekday: 'short', month: 'short', day: 'numeric' };
@@ -81,7 +80,7 @@ const ShowsPage = () => {
           } */}
       </div>
     </Layout>
-  )
+  );
 }
 
-export default ShowsPage
+export default ShowsPage;

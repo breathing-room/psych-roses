@@ -1,14 +1,14 @@
-import * as React from "react"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import MusicPlayer from "../components/musicPlayer"
+import * as React from 'react';
+import Layout from '../components/layout';
+import Seo from '../components/seo';
+import MusicPlayer from '../components/musicPlayer';
 
-const MusicPage = () => {
+function MusicPage() {
   return (
     <Layout>
       <Seo title="Releases" />
-      <div class='m-auto p-4 flex flex-col lg:flex-row justify-center'>
-        <div class="p-4">
+      <div className="m-auto p-4 flex flex-col lg:flex-row justify-center">
+        <div className="p-4">
           <MusicPlayer
             embedUrl="https://bandcamp.com/EmbeddedPlayer/album=960835734/size=large/bgcol=333333/linkcol=e99708/transparent=true/"
             bandcampUrl="https://tascheandthepsychedelicroses.bandcamp.com/album/gold-rose"
@@ -16,7 +16,7 @@ const MusicPage = () => {
             class="m-auto"
           />
         </div>
-        <div class="p-4">
+        <div className="p-4">
           <MusicPlayer
             embedUrl="https://bandcamp.com/EmbeddedPlayer/album=2684022796/size=large/bgcol=333333/linkcol=e99708/transparent=true/"
             bandcampUrl="https://tascheandtheangels.bandcamp.com/album/tasche-the-angels-ep"
@@ -25,7 +25,7 @@ const MusicPage = () => {
         </div>
       </div>
     </Layout>
-  )
+  );
 }
 
-export default MusicPage
+export default MusicPage;

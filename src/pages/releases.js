@@ -1,17 +1,19 @@
-import * as React from "react"
+import * as React from 'react';
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from '../components/layout';
+import Seo from '../components/seo';
 
-const MusicPage = () => (
-  <div>
-  <Layout>
-    <Seo title="Music" />
-    <p class='m-4 p-4'>
-        Embed music here for both albums? 
-    </p>
-  </Layout>
-  </div>
-)
+function MusicPage() {
+  return (
+    <div>
+      <Layout>
+        <Seo title="Music" />
+        <p className="m-4 p-4">
+          Embed music here for both albums?
+        </p>
+      </Layout>
+    </div>
+  );
+}
 
-export default MusicPage
+export default MusicPage;
