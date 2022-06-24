@@ -2,6 +2,8 @@ import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { SocialIcon } from 'react-social-icons';
 // import Video from '../components/video';
+import Img from 'gatsby-image';
+import { graphql } from 'gatsby';
 import SpotifyPlayer from '../components/spotifyPlayer';
 import SoloImage from '../images/solo-face.jpg';
 
@@ -25,6 +27,7 @@ function PressPage() {
               // formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Psychedelic Roses @ Saturn Bar in NOLA"
             />
+            {/* <Img fixed={data.file.childImageSharp.fixed} /> */}
           </div>
           {/* Bio */}
           <div className="bg-gray-800">
@@ -124,3 +127,15 @@ function PressPage() {
 }
 
 export default PressPage;
+
+export const query = graphql`
+  query {
+    file(relativePath: {eq: "solo-face.JPG"}) {
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+  }
+`;
