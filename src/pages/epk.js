@@ -3,6 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import { SocialIcon } from 'react-social-icons';
 // import Video from '../components/video';
 import SpotifyPlayer from '../components/spotifyPlayer';
+import SoloImage from '../images/solo-face.jpg';
 
 import Layout from '../components/layout';
 import Seo from '../components/seo';
@@ -15,12 +16,13 @@ function PressPage() {
       <div className="flex-col md:flex-row lg:flex text-justify">
         <div className="flex flex-col w-9/10">
           {/* Image placeholder for video */}
-          <div className="hidden md:inline">
-            <StaticImage
-              src="../images/solo-face.jpg"
-              width={1000}
-              class="m-8 z-0"
-              formats={['AUTO', 'WEBP', 'AVIF']}
+          <div className="hidden md:inline mr-10">
+            <img
+              // src="../images/solo-face.jpg"
+              src={SoloImage}
+              // width={1050}
+              className="m-8 z-0"
+              // formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Psychedelic Roses @ Saturn Bar in NOLA"
             />
           </div>
