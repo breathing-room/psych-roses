@@ -10,8 +10,8 @@ import React, { Component } from 'react';
 // Size presets, defined by Spotify
 const sizePresets = {
   large: {
-    width: 300,
-    height: 380,
+    width: 320,
+    height: 500,
   },
   compact: {
     width: 300,
@@ -41,7 +41,7 @@ class SpotifyPlayer extends Component {
         title="Spotify"
         src="https://open.spotify.com/embed/album/1c5wv4ZOmfz6mRtcI2pUw4?utm_source=generato"
         width="300"
-        height="380"
+        height="480"
         frameBorder="0"
         allowtransparency="true"
         allow="encrypted-media autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
