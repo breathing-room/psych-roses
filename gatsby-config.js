@@ -49,6 +49,9 @@ module.exports = {
       },
     ]
   },
+  flags: {
+    PARALLEL_QUERY_RUNNING: true
+  },
   plugins: [
     require.resolve(`${__dirname}/plugins/gatsby-bandsintown-source-plugin`),
     `gatsby-plugin-react-helmet`,
