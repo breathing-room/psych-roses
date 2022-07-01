@@ -14,7 +14,7 @@ function ShowsPage() {
 
   return (
     <Layout>
-      <Seo title="Shows" />
+      <Seo title="Tasche and the Psychedelic Roses" />
       <div class="lg:p-6">
         <p class="text-4xl font-bold text-red-400 mb-9">UPCOMING SHOWS</p>
         {

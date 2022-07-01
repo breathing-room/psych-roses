@@ -91,7 +91,7 @@ function PhotosPage({ data }) {
   return (
     <div className="mx-auto">
       <Layout>
-        <Seo title="Photos" />
+        <Seo title="Tasche and the Psychedelic Roses" />
         {/* desktop view -- carousel */}
         <div className="hidden md:block mx-auto max-w-3xl max-h-24">
           <Slider {...settings}>

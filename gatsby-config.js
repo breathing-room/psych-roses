@@ -5,7 +5,15 @@ module.exports = {
     title: `Tasche & the Psychedelic Roses`,
     description: `New Orleans-based psych dream rock'n'roll`,
     author: `Joanna Tomassoni`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    keywords: [
+      'tasche',
+      'psychedelic roses',
+      'roses',
+      'psych',
+      'psych rock',
+      'tasche de la rocha',
+    ],
+    siteUrl: `https://tascheandthepsychedelicroses.com`,
     social: {
       name: "",
       url: "https://www.google.com"

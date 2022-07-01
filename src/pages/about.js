@@ -7,7 +7,7 @@ import Seo from '../components/seo';
 function AboutPage() {
   return (
     <Layout>
-      <Seo title="About" />
+      <Seo title="Tasche and the Psychedelic Roses" />
       <div className="flex md:flex-row lg:flex-row justify-center">
         <div className="hidden lg:flex">
           <StaticImage
