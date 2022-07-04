@@ -1,4 +1,5 @@
 const path = require(`path`)
+const siteUrl = process.env.URL || `https://tascheandthepsychedelicroses.com`
 
 module.exports = {
   siteMetadata: {
@@ -53,7 +54,7 @@ module.exports = {
     PARALLEL_QUERY_RUNNING: true
   },
   plugins: [
-    require.resolve(`${__dirname}/plugins/gatsby-bandsintown-source-plugin`),
+    // require.resolve(`${__dirname}/plugins/gatsby-bandsintown-source-plugin`),
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
@@ -119,6 +120,54 @@ module.exports = {
           origin: "YOUR_SELF_HOSTED_ORIGIN",
         },
       },
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      // options: {
+      // //   query: `
+      // //   {
+      // //     allSitePage {
+      // //       nodes {
+      // //         path
+      // //       }
+      // //     }
+      // //     allWpContentNode(filter: {nodeType: {in: ["Post", "Page"]}}) {
+      // //       nodes {
+      // //         ... on WpPost {
+      // //           uri
+      // //           modifiedGmt
+      // //         }
+      // //         ... on WpPage {
+      // //           uri
+      // //           modifiedGmt
+      // //         }
+      // //       }
+      // //     }
+      // //   }
+      // // `,
+      //   resolveSiteUrl: () => siteUrl,
+      //   // resolvePages: ({
+      //   //   allSitePage: { nodes: allPages },
+      //   //   allWpContentNode: { nodes: allWpNodes },
+      //   // }) => {
+      //   //   const wpNodeMap = allWpNodes.reduce((acc, node) => {
+      //   //     const { uri } = node
+      //   //     acc[uri] = node
+
+      //   //     return acc
+      //   //   }, {})
+
+      //   //   return allPages.map(page => {
+      //   //     return { ...page, ...wpNodeMap[page.path] }
+      //   //   })
+      //   // },
+      //   serialize: ({ path, modifiedGmt }) => {
+      //     return {
+      //       url: path,
+      //       lastmod: modifiedGmt,
+      //     }
+      //   },
+      // },
     },
   ],
 }
