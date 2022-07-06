@@ -8,12 +8,13 @@ function IndexPage({ data }) {
   return (
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" />
-      {/* replace with new album photo */}
       <div className="w-9/12 mx-auto">
-        <p className="m-5 text-4xl font-bold text-red-400 pb-5">
+        <p className="m-5 text-4xl font-bold text-red-400">
           NEW ALBUM COMING OCTOBER 2022
         </p>
-        <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)} alt="Album cover" />
+        <div class="max-w-4xl mx-auto">
+          <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)} alt="Album cover" />
+        </div>
       </div>
       <div className="flex mx-auto md:flex-row w-40" />
     </Layout>
