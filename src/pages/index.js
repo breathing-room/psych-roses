@@ -7,7 +7,7 @@ import Seo from '../components/seo';
 function IndexPage({ data }) {
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses" />
+      <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
       <div className="w-9/12 mx-auto">
         <p className="m-5 text-4xl font-bold text-red-400">
           NEW ALBUM COMING OCTOBER 2022

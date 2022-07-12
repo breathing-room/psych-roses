@@ -6,7 +6,7 @@ import MusicPlayer from '../components/musicPlayer';
 function MusicPage() {
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses" />
+      <Seo title="Tasche and the Psychedelic Roses" pathname="/music" />
       <div className="md:m-auto md:p-4 flex flex-col lg:flex-row justify-center">
         <div className="md:p-4">
           <MusicPlayer

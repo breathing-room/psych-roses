@@ -13,7 +13,7 @@ import Seo from '../components/seo';
 function PressPage() {
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses EPK" />
+      <Seo title="Tasche and the Psychedelic Roses EPK" pathname="/epk" />
       {/* Main container */}
       <div className="flex-col md:flex-row lg:flex text-justify">
         <div className="flex flex-col w-9/10">

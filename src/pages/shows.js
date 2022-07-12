@@ -14,7 +14,7 @@ function ShowsPage() {
 
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses" />
+      <Seo title="Tasche and the Psychedelic Roses" pathname="/shows" />
       <div class="lg:p-6">
         <p class="text-4xl font-bold text-red-400 mb-9">UPCOMING SHOWS</p>
         {
