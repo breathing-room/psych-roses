@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 import SpotifyPlayer from '../components/spotifyPlayer';
-import SoloImage from '../images/indexImages/solo-face.jpg';
+import SoloImage from '../images/solo-face.jpg';
 
 import Layout from '../components/layout';
 import Seo from '../components/seo';
@@ -22,7 +22,7 @@ function PressPage() {
             <img
               src={SoloImage}
               className="m-8 z-0"
-              alt="Psychedelic Roses @ Saturn Bar in NOLA"
+              alt="Tasche de la Rocha"
             />
           </div>
           {/* Bio */}

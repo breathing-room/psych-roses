@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'space': "url('../images/background-images/17086.jpg')",
+        'space': "url('../images/backgroundImages/17086.jpg')",
        }),
     },
     fontFamily: {
