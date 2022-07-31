@@ -20,14 +20,10 @@ function PressPage() {
           {/* Image placeholder for video */}
           <div className="hidden md:inline mr-10">
             <img
-              // src="../images/solo-face.jpg"
               src={SoloImage}
-              // width={1050}
               className="m-8 z-0"
-              // formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Psychedelic Roses @ Saturn Bar in NOLA"
             />
-            {/* <Img fixed={data.file.childImageSharp.fixed} /> */}
           </div>
           {/* Bio */}
           <div className="bg-gray-800">
@@ -65,7 +61,7 @@ function PressPage() {
               quiet contemplation, and fighting the demons around us.
             </p>
           </div>
-          {/* Video */}
+          {/* Video - To be added once video is released */}
           {/* <div className="hidden p-5 justify-center">
             <Video videoSrcURL="https://www.youtube.com/embed/ScMzIvxBSi4" videoTitle="Placeholder" />
           </div> */}
