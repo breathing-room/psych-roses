@@ -145,6 +145,51 @@
     "description": "Earth Rider Brewery"
   },
   {
+    "date": "August 24, 2022",
+    "city": "Burlington, VT",
+    "description": "Radio Bean"
+  },
+  {
+    "date": "August 30, 2022",
+    "city": "Groton, CT",
+    "description": "40 Thieves"
+  },
+  {
+    "date": "August 31, 2022",
+    "city": "NYC",
+    "description": "Jalopy Theatre"
+  },
+  {
+    "date": "September 3, 2022",
+    "city": "Philadelphia, PA",
+    "description": "Clark Park"
+  },
+  {
+    "date": "September 4, 2022",
+    "city": "Baltimore, MD",
+    "description": "Baltimore Spirits Factory"
+  },
+  {
+    "date": "September 9, 2022",
+    "city": "York, SC",
+    "description": "RnB Pubhouse"
+  },
+  {
+    "date": "September 10, 2022",
+    "city": "Columbia, SC",
+    "description": "Tangle Fest"
+  },
+  {
+    "date": "September 11, 2022",
+    "city": "Atlanta, GA",
+    "description": "House show"
+  },
+  {
+    "date": "September 17, 2022",
+    "city": "New Orleans, LA",
+    "description": "Siberia"
+  },
+  {
     "date": "October 31, 2022",
     "city": "New Orleans, LA",
     "description": "ALBUM RELEASE @ Quintron and Miss Pussycat's Halloween Show"
