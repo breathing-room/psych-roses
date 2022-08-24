@@ -11,13 +11,13 @@ function IndexPage({ data }) {
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
       <div className="w-9/12 mx-auto header">
-        <p className="mb-5 text-4xl font-semibold text-red-400">
-          First single, "Hook", dropping Friday, 8/26.
+        <p className="mb-5 text-lg md:text-4xl font-semibold text-red-400">
+          First single, "Hook", dropping 8/26.
         </p>
         <div class="max-w-4xl mx-auto">
           <GatsbyImage image={getImage(data.file.childImageSharp.gatsbyImageData)} alt="Tasche de la Rocha" />
         </div>
-        <p className="mt-5 text-4xl font-semibold text-red-400">
+        <p className="mt-5 text-base md:text-4xl font-semibold text-red-400">
           Available on all streaming platforms.
         </p>
         <div>

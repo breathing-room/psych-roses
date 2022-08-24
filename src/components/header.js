@@ -17,7 +17,7 @@ function Header() {
       </div>
 
       {/* Logo */}
-      <div className="flex justify-center pt-0 md:pt-3 pb-10 md:mb-10 md:pb-0">
+      <div className="flex justify-center pt-0 md:pt-3 pb-5">
         <Link to="/">
           <div className="flex align-middle">
             <StaticImage
