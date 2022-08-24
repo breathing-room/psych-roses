@@ -21,8 +21,7 @@ function Header() {
         <Link to="/">
           <div className="flex align-middle">
             <StaticImage
-              src="../images/logo-transparent.png"
-              width={150}
+              src="../images/new-logo.jpg"
               class="z-0"
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Logo"
