@@ -19,6 +19,10 @@
   background-image: url(../images/gold-foil.jpg);
 } */
 
+.header {
+  font-family: "Fjalla One";
+}
+
 .slick-prev, .slick-next {
   font-size: 15px !important;
   padding: 5rem;

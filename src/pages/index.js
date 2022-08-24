@@ -4,12 +4,13 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 import { SocialIcon } from 'react-social-icons';
+import "@fontsource/fjalla-one"
 
 function IndexPage({ data }) {
   return (
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
-      <div className="w-9/12 mx-auto">
+      <div className="w-9/12 mx-auto header">
         <p className="mb-5 text-4xl font-semibold text-red-400">
           First single, "Hook", dropping Friday, 8/26.
         </p>

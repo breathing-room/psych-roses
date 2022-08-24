@@ -1188,6 +1188,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/fascinate/-/fascinate-4.5.6.tgz#0ce823219d44e7e0f6d246c2f3d324f103657352"
   integrity sha512-6zHS4AuRVT9iJhhTdJBTVOy5EJYz9u7EEn72F14Q+0gvFR8ovOM+sL0EFeW8Nm//cY9jdzGuHGM4TLDr0SygQA==
 
+"@fontsource/fjalla-one@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/fjalla-one/-/fjalla-one-4.5.8.tgz#9f8713a17f07df511b55bb0715c1d0bf5573ef02"
+  integrity sha512-sUwUfv1ebsJYptmHpXjwj5RswQueuldkUhWhM6LuFmPjSQiQ6nk0FnTrjxDibW50p7jHLiTzai3YURQy99SBUg==
+
 "@fortawesome/fontawesome-common-types@6.1.2":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.1.2.tgz#c1095b1bbabf19f37f9ff0719db38d92a410bcfe"
