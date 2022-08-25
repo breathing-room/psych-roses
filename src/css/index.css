@@ -23,6 +23,48 @@
   font-family: "Fjalla One";
 }
 
+#mc_embed_signup {
+  background: rgb(31, 41, 55) !important;
+  margin: auto !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  width: 40% !important;
+}
+
+#mc_embed_signup input.email {
+  width: 100% !important;
+}
+
+#mc_embed_signup form {
+  width: 58% !important;
+  margin: auto !important;
+}
+
+#mc-embedded-subscribe {
+  background-color: rgb(252, 165, 165) !important;
+}
+#mc-embedded-subscribe:hover {
+  background-color: rgb(248, 113, 113) !important;
+}
+
+#mce-EMAIL {
+  color: black !important;
+}
+
+/* Portrait and Landscape */
+@media only screen and (max-width: 480px) {
+  #mc_embed_signup {
+    width: 100% !important;
+  }
+
+  #mc_embed_signup form {
+    width: 100% !important;
+    margin: auto !important;
+    padding-left: 20px !important;
+    padding-right: 5px !important;
+  }
+}
+
 .slick-prev, .slick-next {
   font-size: 15px !important;
   padding: 5rem;

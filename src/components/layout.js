@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
+import Footer from './footer';
 
 function Layout({ children }) {
   const data = useStaticQuery(graphql`
@@ -28,6 +29,7 @@ function Layout({ children }) {
       <div className="flex-col flex-1">
         <main className="flex-col mx-auto content-center text-center p-2">{children}</main>
       </div>
+      <Footer/>
     </div>
   );
 }
