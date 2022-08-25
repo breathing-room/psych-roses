@@ -16,7 +16,9 @@ function PressPage() {
 
         <div className="bg-gray-800 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
-            "At once innovative and surging with a latent caustic energy that is finally liberated,
+            "...edgy, jarring guitars flowing into a pop-flavored melody with tangs of alt-rock...
+
+            At once innovative and surging with a latent caustic energy that is finally liberated,
             “Hook” parades the creative talents of Tasche and the Psychedelic Roses."
             <p className="text-red-300"><a href="https://celebmix.com/music-premiere-tasche-and-the-psychedelic-roses-releases-hook/" target="_blank" rel="noopener noreferrer">
               <strong class="hover:text-red-400">Celebmix &rarr;</strong>
