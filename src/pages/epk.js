@@ -27,7 +27,7 @@ function PressPage() {
           </div>
           {/* Bio */}
           <div className="bg-gray-800">
-            <p className="m-5 text-lg text-red-400 font-bold">Bio</p>
+            <p className="m-5 text-lg text-red-300 font-bold">Bio</p>
             <p className="m-5">
               Forged in the rhythm, joy, and despair of New Orleans,
               <strong> Tasche and the Psychedelic Roses</strong>
@@ -67,8 +67,8 @@ function PressPage() {
           </div> */}
           {/* Contact */}
           <div className="bg-gray-800 my-5 flex-col w-full self-center items-center">
-            <h4 className="m-5 text-lg text-red-400 font-bold">Get in touch</h4>
-            <p className="mx-5 hover:text-red-400"><a href="mailto:taschedelarocahmusic@gmail.com">taschedelarochamusic@gmail.com</a></p>
+            <h4 className="m-5 text-lg text-red-300 font-bold">Get in touch</h4>
+            <p className="mx-5 hover:text-red-300"><a href="mailto:taschedelarocahmusic@gmail.com">taschedelarochamusic@gmail.com</a></p>
             <div>
               <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://open.spotify.com/artist/0Im7zcYdMp1snHs6JmrB9M?si=RnqkTi0gSJuGTaSAosUdJQ" />
               <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://www.facebook.com/taschedelarocha" />
@@ -81,7 +81,7 @@ function PressPage() {
           <div className="m-2 md:flex">
             {/* Reviews */}
             <div className="bg-gray-800 py-2">
-              <p className="m-5 text-lg text-red-400 font-bold">What folks are saying...</p>
+              <p className="m-5 text-lg text-red-300 font-bold">What folks are saying...</p>
               <p className="m-5">&quot;Life is a dying art.</p>
               <p className="m-5">
                 Full of complexity, dark musings, whimsy, and rib pokes at redemption, Tasche

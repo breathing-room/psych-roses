@@ -29,7 +29,7 @@ function ShopPage() {
         <div>TODO: Link to Sinking City shop for new album here</div>
       </p>
     </div>  */}
-        <div className="m-5 text-4xl font-bold text-red-400 pb-5">Coming soon!</div>
+        <div className="m-5 text-4xl font-bold text-red-300 pb-5">Coming soon!</div>
       </Layout>
     </div>
   );

@@ -16,7 +16,7 @@ function ShowsPage() {
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/shows" />
       <div class="lg:p-6">
-        <p class="text-4xl font-bold header text-red-400 mb-9">UPCOMING SHOWS</p>
+        <p class="text-4xl font-bold header text-red-300 mb-9">Upcoming Shows</p>
         {
           upcomingShows.length ? upcomingShows.map((show) => {
             const date = new Date(show.date);
@@ -26,7 +26,7 @@ function ShowsPage() {
                   <div class="md:inline md:p-2">
                     <i>{show.date}</i>
                   </div>
-                  <div class="md:inline md:p-2 text-red-400">
+                  <div class="md:inline md:p-2 text-red-300">
                     {show.city}
                   </div>
                   <div class="md:inline md:p-2">
