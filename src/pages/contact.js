@@ -10,7 +10,7 @@ function ContactPage() {
     <div className="w-9/12 mx-auto">
       <p class="text-4xl font-bold header text-red-300 mb-9">Booking/Contact</p>
 
-      <div className="bg-gray-800 md:my-10 md:mx-64 p-5 md:p-2">
+      <div className="bg-gray-800 md:my-10 md:mx-60 p-5 md:p-2">
         <p className="text-sm text-center md:text-lg md:m-5 md:mx-16 hover:text-red-300">
           <a href="mailto:taschedelarochamusic@gmail.com">taschedelarochamusic@gmail.com</a>
         </p>
