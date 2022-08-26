@@ -13,7 +13,6 @@ const SignUpForm = () => {
         <form action="https://tascheandthepsychedelicroses.us18.list-manage.com/subscribe/post?u=833534bcdb474b73457692cf5&amp;id=0031127239&amp;f_id=007909e7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
             <div id="mc_embed_signup_scroll">
             <h2>Subscribe</h2>
-            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
     <div class="mc-field-group">
         <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
     </label>
