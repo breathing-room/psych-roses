@@ -68,6 +68,9 @@ function Header() {
           <Link to="/epk" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             EPK
           </Link>
+          <Link to="/contact" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+            Contact
+          </Link>
           <div>
             <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://open.spotify.com/artist/0Im7zcYdMp1snHs6JmrB9M?si=RnqkTi0gSJuGTaSAosUdJQ" />
             <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://www.facebook.com/taschedelarocha" />
