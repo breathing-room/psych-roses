@@ -24,11 +24,11 @@
 }
 
 #mc_embed_signup {
-  background: rgb(31, 41, 55) !important;
+  background: rgb(31, 41, 55, .75) !important;
   margin: auto !important;
   padding-top: 15px !important;
   padding-bottom: 15px !important;
-  width: 40% !important;
+  width: 30% !important;
 }
 
 #mc_embed_signup input.email {

@@ -26,7 +26,7 @@ function PressPage() {
             />
           </div>
           {/* Bio */}
-          <div className="bg-gray-800">
+          <div className="bg-gray-800 opacity-75">
             <p className="m-5 text-lg text-red-300 font-bold">Bio</p>
             <p className="m-5">
               Forged in the rhythm, joy, and despair of New Orleans,
@@ -66,7 +66,7 @@ function PressPage() {
             <Video videoSrcURL="https://www.youtube.com/embed/ScMzIvxBSi4" videoTitle="Placeholder" />
           </div> */}
           {/* Contact */}
-          <div className="bg-gray-800 my-5 flex-col w-full self-center items-center">
+          <div className="bg-gray-800 opacity-75 my-5 flex-col w-full self-center items-center">
             <h4 className="m-5 text-lg text-red-300 font-bold">Get in touch</h4>
             <p className="mx-5 hover:text-red-300"><a href="mailto:taschedelarocahmusic@gmail.com">taschedelarochamusic@gmail.com</a></p>
             <div>
@@ -80,7 +80,7 @@ function PressPage() {
         <div className="flex flex-col items-center my-6">
           <div className="m-2 md:flex">
             {/* Reviews */}
-            <div className="bg-gray-800 py-2">
+            <div className="bg-gray-800 opacity-75 py-2">
               <p className="m-5 text-lg text-red-300 font-bold">What folks are saying...</p>
               <p className="m-5">&quot;Life is a dying art.</p>
               <p className="m-5">
