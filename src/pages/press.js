@@ -14,7 +14,31 @@ function PressPage() {
       <div className="w-9/12 mx-auto">
         <p class="text-4xl font-bold header text-red-300 mb-9">Recent Press</p>
 
-        <div className="bg-gray-800 md:my-10 md:mx-72 p-5 md:p-2">
+        <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+          <p className="md:m-5 md:mx-16">
+            "...potent...so divergent, so stunning...
+
+            The exquisite progressive art rock meets oompah is not only fun but rocks so hard.
+            There are nods to surf punk to psych and stoner rock...
+            There is also a beautifully odd sensibility, a touch of 80's caberet and punk / new wave..."
+            <p className="text-red-300"><a href="https://www.americanpancake.com/2022/09/tasche-and-psychedelic-roses-and.html" target="_blank" rel="noopener noreferrer">
+              <strong class="hover:text-red-400">American Pancake &rarr;</strong>
+            </a></p>
+          </p>
+        </div>
+        <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+          <p className="md:m-5 md:mx-16">
+            "Lively sound...beautiful instrumental performance and excellent vocal lines...
+
+            Hook is a composition full of energy where guitar, bass and drums form a perfect sound layer
+            so that vocal melodies can be applied in a sensational and exciting way,
+            closing the ideal package of a lot of talent and competence of a fantastic band." (translation)
+            <p className="text-red-300"><a href="https://roadie-music.com/tasche-and-the-psychedelic-roses-traz-um-incrivel-lancamento-com-hook/" target="_blank" rel="noopener noreferrer">
+              <strong class="hover:text-red-400">Roadie Music &rarr;</strong>
+            </a></p>
+          </p>
+        </div>
+        <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
             "...edgy, jarring guitars flowing into a pop-flavored melody with tangs of alt-rock...
 
@@ -25,7 +49,7 @@ function PressPage() {
             </a></p>
           </p>
         </div>
-        <div className="bg-gray-800 my-10 md:mx-72 p-5 md:p-2">
+        <div className="bg-gray-700 opacity-75 my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
             "...ethereal, plaintive blues and shuffling, rough-hewn doo-wop and R&B,
             all tied together by the singer-songwriter's unmistakable voice — a barbed, wiry howl"
