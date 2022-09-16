@@ -24,9 +24,12 @@ function IndexPage({ data }) {
 
         <div class="md:max-w-4xl md:mx-auto">
           <GatsbyImage
+            alt="Tasche de la Rocha"
             image={getImage(data.file.childImageSharp.gatsbyImageData)}
-            alt="Tasche de la Rocha"/>
+            title="Photo by Caitlyn Ridenour"
+            />
         </div>
+        <p class="text-gray-600 text-xs">Photo by Caitlyn Ridenour</p>
         <p className="mt-5 text-base md:text-4xl font-semibold text-red-300">
           Available on all streaming platforms.
         </p>
