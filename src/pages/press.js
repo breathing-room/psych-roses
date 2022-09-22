@@ -16,6 +16,17 @@ function PressPage() {
 
         <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
+            "Led by the charismatic and compelling Tasche de la Rocha, the band rocks with freedom and candour
+            typical of the great punk acts of past and present, as well as a feminist spirit that really helps bring the energy.
+            Joining four-part vocal harmonies, grunge-like guitar riffs, a punk rock disposition, and pinches of doo-wop, cabaret, and psychedelia,
+            Tasche and her team really pack a powerful punch for rock fans of both past and present."
+            <p className="text-red-300"><a href="https://v13.net/2022/09/tasche-and-the-psychedelic-roses-dying-art-single-premiere/" target="_blank" rel="noopener noreferrer">
+              <strong class="hover:text-red-400">V13 &rarr;</strong>
+            </a></p>
+          </p>
+        </div>
+        <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+          <p className="md:m-5 md:mx-16">
             "...potent...so divergent, so stunning...
 
             The exquisite progressive art rock meets oompah is not only fun but rocks so hard.
