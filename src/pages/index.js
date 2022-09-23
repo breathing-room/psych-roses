@@ -12,15 +12,15 @@ function IndexPage({ data }) {
       <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
       <div className="md:w-9/12 mx-auto header">
         <p className="md:mb-5 md:mt-5  text-lg md:text-4xl font-semibold text-red-300">
-          New single, "Dying Art", coming 9/23!
+          New single, "Dying Art", out now!
         </p>
 
-        {/* <button className="md:mb-10 my-2 text-lg md:text-4xl font-semibold bg-red-300 hover:bg-red-400 py-2 px-4 rounded-full shadow">
-          <a href="https://open.spotify.com/track/21jp4ZLdN66MuhvsOUFw64?si=Vsd1HJGXTuaJASTviG7dAg" rel="noopener noreferrer" target="_blank">
+        <button className="md:mb-10 my-2 text-lg md:text-4xl font-semibold bg-red-300 hover:bg-red-400 py-2 px-4 rounded-full shadow">
+          <a href="https://open.spotify.com/track/7mho0mIfyWHzWJFNMBCqPI?si=c691fadc3bd94a34" rel="noopener noreferrer" target="_blank">
             <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ width: '35px', height: '35px' }} network="spotify" />
-            <span class="ml-2">Listen now</span>
+            <span class="ml-2">Listen</span>
           </a>
-        </button> */}
+        </button>
 
         <div class="md:max-w-4xl md:mx-auto">
           <GatsbyImage
