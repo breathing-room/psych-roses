@@ -25,6 +25,7 @@ function PressPage() {
             </a></p>
           </p>
         </div>
+
         <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
             "...potent...so divergent, so stunning...
@@ -37,6 +38,19 @@ function PressPage() {
             </a></p>
           </p>
         </div>
+
+        <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+          <p className="md:m-5 md:mx-16">
+            "Tasche and the Psychedelic Roses brings together a menagerie of genres like only a song created in The Big Easy can
+            with the energy of a busker contained only by the performance’s pinpoint precision.
+            Tight vocal harmonies wind in and out of crunchy surf guitars to create an almost manic, psychedelic doo-wop explosion
+            that’s impossible to turn away from until the very end."
+            <p className="text-red-300"><a href="https://glidemagazine.com/280863/listen-tasche-and-the-psychedelic-roses-bring-throwback-psych-doo-wop-explosion-via-hook/" target="_blank" rel="noopener noreferrer">
+              <strong class="hover:text-red-400">Glide Magazine &rarr;</strong>
+            </a></p>
+          </p>
+        </div>
+
         <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
             "Lively sound...beautiful instrumental performance and excellent vocal lines...
@@ -49,6 +63,7 @@ function PressPage() {
             </a></p>
           </p>
         </div>
+
         <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
             "...edgy, jarring guitars flowing into a pop-flavored melody with tangs of alt-rock...
@@ -60,6 +75,7 @@ function PressPage() {
             </a></p>
           </p>
         </div>
+
         <div className="bg-gray-700 opacity-75 my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
             "...ethereal, plaintive blues and shuffling, rough-hewn doo-wop and R&B,
