@@ -105,7 +105,7 @@ function PressPage() {
             </div>
             {/* Songs */}
             <div className="m-2">
-              <SpotifyPlayer />
+              <SpotifyPlayer src="https://open.spotify.com/embed/album/0zJgqhxrieIzuNSXr63Vp7?highlight=spotify:track:7mho0mIfyWHzWJFNMBCqPI?utm_source=generato"/>
             </div>
           </div>
           <div className="hidden md:inline">

@@ -39,7 +39,7 @@ class SpotifyPlayer extends Component {
 
       <iframe
         title="Spotify"
-        src="https://open.spotify.com/embed/album/1c5wv4ZOmfz6mRtcI2pUw4?utm_source=generato"
+        src={this.props.src}
         width="300"
         height="480"
         frameBorder="0"
