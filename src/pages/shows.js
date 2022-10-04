@@ -29,8 +29,15 @@ function ShowsPage() {
                   <div class="md:inline md:p-2 text-red-300">
                     {show.city}
                   </div>
-                  <div class="md:inline md:p-2">
-                    <strong>{show.description}</strong>
+                  <div class="md:inline md:p-2 hover:text-red-400">
+                    <a href={show.tickets_url} rel="noreferrer noopener" target="_blank"><strong>{show.description}</strong></a>
+                  </div>
+                  <div class="md:inline md:p-2 text-red-300 hover:text-red-400">
+                    {
+                      show.tickets_url ?
+                       <a href={show.tickets_url} rel="noreferrer noopener" target="_blank"><strong>BUY TICKETS</strong></a>
+                       : null
+                    }
                   </div>
                 </div>
               );
