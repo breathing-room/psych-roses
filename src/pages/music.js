@@ -10,10 +10,10 @@ function MusicPage() {
       <Seo title="Tasche and the Psychedelic Roses" pathname="/music" />
       <div className="md:m-auto md:p-4 flex flex-col lg:flex-row justify-center">
         <div className="md:p-4">
-          <SpotifyPlayer src="https://open.spotify.com/embed/album/0zJgqhxrieIzuNSXr63Vp7?highlight=spotify:track:7mho0mIfyWHzWJFNMBCqPI"/>
+          <SpotifyPlayer src="https://open.spotify.com/embed/album/0zJgqhxrieIzuNSXr63Vp7?highlight=spotify:track:7mho0mIfyWHzWJFNMBCqPI" height="480"/>
         </div>
         <div className="md:p-4">
-          <SpotifyPlayer src="https://open.spotify.com/embed/album/5h7FlXraimbSpDorXK94Tg?highlight=spotify:track:21jp4ZLdN66MuhvsOUFw64"/>
+          <SpotifyPlayer src="https://open.spotify.com/embed/album/5h7FlXraimbSpDorXK94Tg?highlight=spotify:track:21jp4ZLdN66MuhvsOUFw64" height="480"/>
         </div>
       </div>
       <div className="md:m-auto md:p-4 flex flex-col lg:flex-row justify-center">

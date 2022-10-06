@@ -41,7 +41,7 @@ class SpotifyPlayer extends Component {
         title="Spotify"
         src={this.props.src}
         width="300"
-        height="480"
+        height={this.props.height}
         frameBorder="0"
         allowtransparency="true"
         allow="encrypted-media autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
