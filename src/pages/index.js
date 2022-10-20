@@ -56,7 +56,7 @@ function IndexPage({ data }) {
               </p>
 
               <button className="md:mb-10 lg:mb-4 text-lg md:text-3xl font-semibold bg-red-400 hover:bg-red-300 py-2 px-4 rounded-full shadow">
-          <a href="https://www.ticketweb.com/event/quintron-miss-pussycat-tasche-one-eyed-jacks-presents-at-tickets/12555525?pl=oneeyed" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.ticketweb.com/event/quintron-miss-pussycat-tasche-one-eyed-jacks-presents-at-tickets/12555525?pl=oneeyed&REFID=clientsitewp" rel="noopener noreferrer" target="_blank">
             <span>Get your tix here!</span>
           </a>
         </button>
