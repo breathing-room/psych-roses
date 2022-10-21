@@ -28,8 +28,16 @@ function IndexPage({ data }) {
               </p>
 
               <button className="md:mb-10 text-lg md:text-4xl font-semibold bg-red-400 hover:bg-red-300 py-2 px-4 mx-3 rounded-full shadow">
-                <a href="https://taschedelarocha.bandcamp.com/?label=3525941080&tab=artists" rel="noopener noreferrer" target="_blank">
+                <a href="https://open.spotify.com/album/5WPIAEuO2jz3nBxcowCtwu?si=2EJG7T1aTMiBFOWyBrQEOQ" rel="noopener noreferrer" target="_blank">
+                  <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" url="https://open.spotify.com/album/5WPIAEuO2jz3nBxcowCtwu?si=2EJG7T1aTMiBFOWyBrQEOQ" />
                   <span class="ml-2">LISTEN</span>
+                </a>
+              </button>
+
+              <button className="md:mb-10 text-lg md:text-4xl font-semibold bg-red-400 hover:bg-red-300 py-2 px-4 mx-3 rounded-full shadow">
+                <a href="https://sinkingcityrecords.bandcamp.com/merch?filter_band=182166741" rel="noopener noreferrer" target="_blank">
+                  <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" url="https://sinkingcityrecords.bandcamp.com/merch?filter_band=182166741" />
+                  <span class="ml-2">BUY VINYL</span>
                 </a>
               </button>
 
@@ -39,7 +47,7 @@ function IndexPage({ data }) {
               <div>
                 <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://open.spotify.com/artist/0Im7zcYdMp1snHs6JmrB9M?si=RnqkTi0gSJuGTaSAosUdJQ" />
                 <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://music.apple.com/us/artist/tasche-the-psychedelic-roses/1325686500" network="itunes"/>
-                <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://taschedelarocha.bandcamp.com/track/hook"/>
+                <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://taschedelarocha.bandcamp.com/album/tasche-de-la-rocha-the-psychedelic-roses?label=3525941080&tab=artists"/>
               </div>
             </div>
           </div>
