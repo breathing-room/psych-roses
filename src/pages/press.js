@@ -16,6 +16,16 @@ function PressPage() {
 
         <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
+            "[Co-producers Tasche de la Rocha and Eric Heigle] capture the duality of life’s tumultous bumps and indents,
+            at different points conveying unsettling uncertainty and blissful euphoria."
+            <p className="text-red-300"><a href="https://www.wonderlandmagazine.com/2022/10/21/premiere-tasche-and-the-psychedelic-roses/" target="_blank" rel="noopener noreferrer">
+              <strong class="hover:text-red-400">Wonderland &rarr;</strong>
+            </a></p>
+          </p>
+        </div>
+
+        <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+          <p className="md:m-5 md:mx-16">
             "Led by the charismatic and compelling Tasche de la Rocha, the band rocks with freedom and candour
             typical of the great punk acts of past and present, as well as a feminist spirit that really helps bring the energy.
             Joining four-part vocal harmonies, grunge-like guitar riffs, a punk rock disposition, and pinches of doo-wop, cabaret, and psychedelia,
