@@ -190,9 +190,10 @@
     "description": "Siberia"
   },
   {
-    "date": "October 25, 2022",
+    "date": "October 26, 2022",
     "city": "New Orleans, LA",
-    "description": "Tasche & the Angels @ Marigny Opera House"
+    "description": "Tasche & the Angels @ Marigny Opera House",
+    "tickets_url": "https://marignyoperahouse.org/upcoming-events/tasche-and-the-angels-2/"
   },
   {
     "date": "October 31, 2022",
