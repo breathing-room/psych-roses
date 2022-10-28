@@ -16,6 +16,19 @@ function PressPage() {
 
         <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
+            "Tasche has a thoroughly unique voice, like literally but also in terms of the art she seeds and her and her band give birth to.
+            'Dying Art' in terms of some of it's shapes, sonic temperaments and attitudes made me think of the progressive / experimental side of the Beatles,
+            of Abbey Road in particular but put though an art punk filter (think Pere Ubu, Mission of Burma) and as exquisitely jammy and crazy (good crazy)
+            Tasche and the Psychedelic Roses get here, they equally can feel just as elegant and therein lies their off-kilter brilliance...
+            It will likely stun you and that is a wonderful thing."
+            <p className="text-red-300"><a href="https://www.americanpancake.com/2022/10/tasche-and-psychedelic-roses-and.html" target="_blank" rel="noopener noreferrer">
+              <strong class="hover:text-red-400">American Pancake &rarr;</strong>
+            </a></p>
+          </p>
+        </div>
+
+        <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+          <p className="md:m-5 md:mx-16">
             "[Co-producers Tasche de la Rocha and Eric Heigle] capture the duality of life’s tumultous bumps and indents,
             at different points conveying unsettling uncertainty and blissful euphoria."
             <p className="text-red-300"><a href="https://www.wonderlandmagazine.com/2022/10/21/premiere-tasche-and-the-psychedelic-roses/" target="_blank" rel="noopener noreferrer">
