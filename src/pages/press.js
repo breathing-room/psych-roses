@@ -29,6 +29,19 @@ function PressPage() {
 
         <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
+            "Tasche & the Psychedelic Roses hit us up with their new single,
+            “Dying Art” and we were immediately drawn to its whimsical vibe.
+            With jaunty guitars, silky harmonies, and a retro sensibility that never sounds dated,
+            Tasche & co. whip up a magical brew of rock-n-roll flavored indie with hints of psychedelia.
+            Stick around for the swirly guitar theatrics and slow-down bridge that ultimately winds its way back into an ooh-laden symphony."
+            <p className="text-red-300"><a href="https://buffablog.com/tasche-the-psychedelic-roses-dying-art/" target="_blank" rel="noopener noreferrer">
+              <strong class="hover:text-red-400">buffaBLOG &rarr;</strong>
+            </a></p>
+          </p>
+        </div>
+
+        <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+          <p className="md:m-5 md:mx-16">
             "[Co-producers Tasche de la Rocha and Eric Heigle] capture the duality of life’s tumultous bumps and indents,
             at different points conveying unsettling uncertainty and blissful euphoria."
             <p className="text-red-300"><a href="https://www.wonderlandmagazine.com/2022/10/21/premiere-tasche-and-the-psychedelic-roses/" target="_blank" rel="noopener noreferrer">
