@@ -71,35 +71,6 @@ function IndexPage({ data }) {
             </div>
           </div>
         </div>
-
-        <div className="hidden md:display md:flex md:ml-64 md:mt-10">
-          <div className="md:flex md:items-center">
-            <div>
-            <p className="md:mb-5 md:mt-5 lg:my-2 text-lm md:text-3xl font-semibold text-red-300">
-                RELEASE SHOW COMING UP
-              </p>
-              <p className="md:mb-5 md:mt-5 lg:my-2 text-lm md:text-xl py-0 font-semibold text-red-300">
-                10/31 @ One Eyed Jack's in NOLA
-              </p>
-
-              <button className="md:mb-10 lg:mb-4 text-lg md:text-3xl font-semibold bg-red-400 hover:bg-red-300 py-2 px-4 rounded-full shadow">
-          <a href="https://www.ticketweb.com/event/quintron-miss-pussycat-tasche-one-eyed-jacks-presents-at-tickets/12555525?pl=oneeyed&REFID=clientsitewp" rel="noopener noreferrer" target="_blank">
-            <span>Get your tix here!</span>
-          </a>
-        </button>
-            </div>
-
-          </div>
-          <div class="md:max-w-4xl md:mx-auto">
-            <GatsbyImage
-              alt="Tasche de la Rocha"
-              image={getImage(data.file.childImageSharp.gatsbyImageData)}
-              title="Flyer for album release show on 10/31 at One Eyed Jack's in NOLA"
-              />
-                <p class="text-gray-600 text-xs">Photo by Caitlyn Ridenour</p>
-          </div>
-
-        </div>
       </div>
     </Layout>
   );
