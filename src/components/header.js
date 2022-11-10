@@ -55,10 +55,9 @@ function Header() {
           <Link to="/music" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Music
           </Link>
-          {/* TODO: Link shop */}
-          {/* <Link to="/shop" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="https://sinkingcityrecords.bandcamp.com/merch?filter_band=182166741" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" rel="noopener noreferrer" target="_blank">
             Shop
-          </Link> */}
+          </Link>
           <Link to="/press" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Press
           </Link>
