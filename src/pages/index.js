@@ -32,8 +32,9 @@ function IndexPage({ data }) {
             </div>
           </div>
 
-          <div class="md:max-w-2xl md:mx-auto">
-            <iframe title="vimeo-player" src="https://player.vimeo.com/video/769524460?h=1e8e5c7af6" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+          <div class="md:max-w-2xl md:mx-auto ">
+            <iframe class="p-2" title="vimeo-player" src="https://player.vimeo.com/video/769524815?h=3f8acf6b70" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            <iframe class="p-2" title="vimeo-player" src="https://player.vimeo.com/video/769524460?h=1e8e5c7af6" width="640" height="360" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
 
