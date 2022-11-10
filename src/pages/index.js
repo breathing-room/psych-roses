@@ -27,7 +27,7 @@ function IndexPage({ data }) {
                 VIDEO FOR "HAPPY SONG"
               </p>
               <p className="text-2xl md:mb-5 md:mt-5 lg:my-2 text-lm md:text-3xl font-semibold text-red-300">
-                DROPPING FRIDAY, 11/11
+                COMING FRIDAY, 11/11
               </p>
             </div>
           </div>
