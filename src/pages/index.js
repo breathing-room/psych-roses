@@ -7,12 +7,36 @@ import { SocialIcon } from 'react-social-icons';
 import "@fontsource/fjalla-one"
 import SpotifyPlayer from '../components/spotifyPlayer';
 import AlbumCoverImg from '../images/album-cover.jpg'
+import Video from '../components/video';
 
 function IndexPage({ data }) {
   return (
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
       <div className="md:w-9/12 mx-auto header">
+
+      <div className="hidden md:display md:flex md:ml-64 md:mt-10">
+          <div className="md:flex md:items-center">
+          </div>
+        </div>
+
+        <div className="md:flex p-5 mb-10">
+          <div className="md:flex md:items-center mx-auto">
+            <div>
+              <p className="text-2xl md:mb-5 md:mt-5 lg:my-2 text-lm md:text-3xl font-semibold text-red-300">
+                VIDEO FOR "HAPPY SONG"
+              </p>
+              <p className="text-2xl md:mb-5 md:mt-5 lg:my-2 text-lm md:text-3xl font-semibold text-red-300">
+                DROPPING FRIDAY, 11/11
+              </p>
+            </div>
+          </div>
+
+          <div class="md:max-w-2xl md:mx-auto">
+            <iframe title="vimeo-player" src="https://player.vimeo.com/video/769524561?h=65382830a3" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+
         <div className="md:flex">
           <div class="md:max-w-2xl md:mx-auto">
             <img
@@ -71,6 +95,7 @@ function IndexPage({ data }) {
             </div>
           </div>
         </div>
+
       </div>
     </Layout>
   );
