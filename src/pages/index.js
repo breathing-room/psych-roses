@@ -33,7 +33,7 @@ function IndexPage({ data }) {
           </div>
 
           <div class="md:max-w-2xl md:mx-auto">
-            <iframe title="vimeo-player" src="https://player.vimeo.com/video/769524561?h=65382830a3" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+            <iframe title="vimeo-player" src="https://player.vimeo.com/video/769524460?h=1e8e5c7af6" width="640" height="360" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
 
