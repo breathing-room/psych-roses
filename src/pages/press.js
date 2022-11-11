@@ -12,7 +12,19 @@ function PressPage() {
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/press" />
       <div className="w-9/12 mx-auto">
-        <p class="text-4xl font-bold header text-red-300 mb-9">Recent Press</p>
+        <p class="text-4xl font-bold header text-red-300 mb-9">Recent Press for <em>Tasche & the Psychedelic Roses</em></p>
+
+        <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+          <p className="md:m-5 md:mx-16">
+            "electrifying...energetic...dynamic, infectious...
+            Across 10 riotous, evocative and effervescent tracks, the multi-genre collective effortlessly fuse elements of
+            psychedelia, glam rock, garage and doo wop.
+            Forged in the rhythm, joy, and despair of New Orleans, frontwoman Tasche de la Rocha emits a sound that is both contemporary and vintage."
+            <p className="text-red-300"><a href="https://happymag.tv/tasche-and-the-psychedelic-roses-new-self-titled-album/" target="_blank" rel="noopener noreferrer">
+              <strong class="hover:text-red-400">Happy Mag &rarr;</strong>
+            </a></p>
+          </p>
+        </div>
 
         <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
           <p className="md:m-5 md:mx-16">
