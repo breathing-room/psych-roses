@@ -7,7 +7,18 @@ function VideoPage() {
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/videos" />
       <div className="mx-auto flex flex-col items-center">
-        <div class="p-4">
+        <div class="p-4 lg:hidden">
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/USTBDhGY8Ig"
+            title="Happy Song"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="p-4 hidden lg:block">
           <iframe
             width="560"
             height="315"
@@ -18,7 +29,19 @@ function VideoPage() {
             allowfullscreen>
           </iframe>
         </div>
-        <div className="p-4">
+
+        <div className="p-4 lg:hidden">
+          <iframe
+            width="300"
+            height="200"
+            src="https://www.youtube.com/embed/U7AmVS_njVY"
+            title="'Happy Song', live @ One Eyed Jack's, 10/31/22"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div className="p-4 hidden lg:block">
           <iframe
             width="560"
             height="315"
