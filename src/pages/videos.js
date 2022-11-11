@@ -6,8 +6,19 @@ function VideoPage() {
   return (
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/videos" />
-      <div className="md:m-auto md:p-4 flex flex-col lg:flex-row justify-center">
-        <div className="md:p-4">
+      <div className="mx-auto flex flex-col items-center">
+        <div class="p-4">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/USTBDhGY8Ig"
+            title="Happy Song"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div className="p-4">
           <iframe
             width="560"
             height="315"
