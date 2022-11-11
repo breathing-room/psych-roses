@@ -14,27 +14,26 @@ function IndexPage({ data }) {
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
       <div className="md:w-9/12 mx-auto header">
-
-      <div className="hidden md:display md:flex md:ml-64 md:mt-10">
-          <div className="md:flex md:items-center">
-          </div>
-        </div>
-
         <div className="md:flex p-5 mb-10">
           <div className="md:flex md:items-center mx-auto">
             <div>
-              <p className="text-2xl md:mb-5 md:mt-5 lg:my-2 text-lm md:text-3xl font-semibold text-red-300">
-                VIDEO FOR "HAPPY SONG"
+              <p className="text-xl md:mb-5 md:mt-5 lg:my-2 lg:text-3xl font-semibold text-red-400">
+                "HAPPY SONG" OFFICIAL MUSIC VIDEO
               </p>
-              <p className="text-2xl md:mb-5 md:mt-5 lg:my-2 text-lm md:text-3xl font-semibold text-red-300">
-                COMING FRIDAY, 11/11
+              <p className="lg:hidden text-xl md:mb-5 md:mt-5 lg:my-2 lg:text-3xl font-semibold text-red-300">
+                OUT NOW
               </p>
-            </div>
-          </div>
 
-          <div class="md:max-w-2xl md:mx-auto ">
-            <iframe class="p-2" title="vimeo-player" src="https://player.vimeo.com/video/769524815?h=3f8acf6b70" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-            <iframe class="p-2" title="vimeo-player" src="https://player.vimeo.com/video/769524460?h=1e8e5c7af6" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+              <button className="lg:hidden md:mb-10 text-lg font-semibold bg-red-400 hover:bg-red-300 py-2 pl-5 pr-7 my-3 rounded-full shadow">
+                <a href="https://vimeo.com/748541551" rel="noopener noreferrer" target="_blank">
+                  <span class="ml-2">WATCH</span>
+                </a>
+              </button>
+
+              <div class="hidden lg:block md:max-w-2xl md:mx-auto ">
+                <iframe src="https://player.vimeo.com/video/748541551?h=f2c25fac8c&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
           </div>
         </div>
 
