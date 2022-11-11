@@ -25,13 +25,13 @@ function IndexPage({ data }) {
               </p>
 
               <button className="lg:hidden md:mb-10 text-lg font-semibold bg-red-400 hover:bg-red-300 py-2 pl-5 pr-7 my-3 rounded-full shadow">
-                <a href="https://vimeo.com/748541551" rel="noopener noreferrer" target="_blank">
+                <a href="https://youtu.be/USTBDhGY8Ig" rel="noopener noreferrer" target="_blank">
                   <span class="ml-2">WATCH</span>
                 </a>
               </button>
 
               <div class="hidden lg:block md:max-w-2xl md:mx-auto ">
-                <iframe src="https://player.vimeo.com/video/748541551?h=f2c25fac8c&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/USTBDhGY8Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
           </div>
           </div>
