@@ -13,20 +13,6 @@ function PressPage() {
       <Seo title="Tasche and the Psychedelic Roses" pathname="/press" />
       <div className="w-9/12 mx-auto">
         <p class="text-4xl font-bold header text-red-300 mb-9">Recent Press for <em>Tasche & the Psychedelic Roses</em></p>
-
-
-        <div class="flex">
-
-          <div>
-            <div class="hidden md:inline w-full mx-auto">
-              <img
-                src={AlbumCover}
-                alt="Tasche de la Rocha"
-                width={500}
-              />
-            </div>
-          </div>
-
           <div>
             <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
               <p className="md:m-5 md:mx-16">
@@ -184,8 +170,17 @@ function PressPage() {
             </div>
           </div>
 
+
+
+          <div className="hidden md:inline mr-10">
+            <img
+              src={AlbumCover}
+                className="mx-auto"
+                alt="Tasche de la Rocha"
+                width={500}
+            />
+          </div>
         </div>
-      </div>
     </Layout>
   );
 }
