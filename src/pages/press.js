@@ -16,6 +16,26 @@ function PressPage() {
           <div>
             <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
               <p className="md:m-5 md:mx-16">
+                "...grunge guitar riffs, punk, doo-wop, surf, cabaret, and psychedelic influences...
+                balancing a fine line between sweetness and devastation."
+                <p className="text-red-300"><a href="https://conversationsabouther.net/new-orleans-band-tasche-and-the-psychedelic-roses-release-happy-song/" target="_blank" rel="noopener noreferrer">
+                  <strong class="hover:text-red-400">Conversations About Her &rarr;</strong>
+                </a></p>
+              </p>
+            </div>
+
+            <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+              <p className="md:m-5 md:mx-16">
+                "intoxicating...an authentic sound that will leave you in awe.
+                Their music sways between the lines of sweetness and destruction."
+                <p className="text-red-300"><a href="https://happymag.tv/tasche-and-the-psychedelic-roses-self-titled-album-track-by-track/?mibextid=Zxz2cZ" target="_blank" rel="noopener noreferrer">
+                  <strong class="hover:text-red-400">Happy Mag &rarr;</strong>
+                </a></p>
+              </p>
+            </div>
+
+            <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+              <p className="md:m-5 md:mx-16">
                 "electrifying...energetic...dynamic, infectious...
                 Across 10 riotous, evocative and effervescent tracks, the multi-genre collective effortlessly fuse elements of
                 psychedelia, glam rock, garage and doo wop.
