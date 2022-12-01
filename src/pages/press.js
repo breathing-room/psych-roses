@@ -16,6 +16,17 @@ function PressPage() {
           <div>
             <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
               <p className="md:m-5 md:mx-16">
+                "Tasche de la Rocha and the Psychedelic Roses approach their full potential on this release, blending sounds of doo-wop, surf rock,
+                cabaret, punk and ’70s-era classic rock. De la Rocha is a captivating vocalist who aesthetically feels plucked right out of the ‘50s
+                but lyrically provides a level of emotional intelligence that seemingly can only exist in 2022."
+                <p className="text-red-300"><a href="https://www.offbeat.com/news/new-releases-in-new-orleans-koan-kenpachi-tasche-de-la-rocha-more/" target="_blank" rel="noopener noreferrer">
+                  <strong class="hover:text-red-400">Offbeat &rarr;</strong>
+                </a></p>
+              </p>
+            </div>
+
+            <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+              <p className="md:m-5 md:mx-16">
                 "...grunge guitar riffs, punk, doo-wop, surf, cabaret, and psychedelic influences...
                 balancing a fine line between sweetness and devastation."
                 <p className="text-red-300"><a href="https://conversationsabouther.net/new-orleans-band-tasche-and-the-psychedelic-roses-release-happy-song/" target="_blank" rel="noopener noreferrer">
