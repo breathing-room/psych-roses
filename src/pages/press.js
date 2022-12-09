@@ -16,6 +16,20 @@ function PressPage() {
           <div>
             <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
               <p className="md:m-5 md:mx-16">
+                "The surreal psychedelic psycho-dramatic horror pastiche of the "Happy Song" Official Video...
+                feels like a crazy garish amalgam of John Waters, Natalie Erika James and David Cronenberg.
+                The punchy sonics energized by the band's signature blend of cabaret meets doo wop punk meets surf punk
+                meets progressive jam rock and more as punctuated by Tasche de la Rocha unique vocals offers inside and out twists and turns.
+                In the end, "Happy Song" from Tasche and the Psychedelic Roses eponymous album feels like a thrill ride of sorts fused from darks seeds,
+                "a murder ballad written in honor of survivors" as the whole band chews up the scenery in the most artful ways."
+                <p className="text-red-300"><a href="https://www.americanpancake.com/2022/12/tasche-and-psychedelic-roses-celebrate.html" target="_blank" rel="noopener noreferrer">
+                  <strong class="hover:text-red-400">American Pancake &rarr;</strong>
+                </a></p>
+              </p>
+            </div>
+
+            <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+              <p className="md:m-5 md:mx-16">
                 "Tasche de la Rocha and the Psychedelic Roses approach their full potential on this release, blending sounds of doo-wop, surf rock,
                 cabaret, punk and ’70s-era classic rock. De la Rocha is a captivating vocalist who aesthetically feels plucked right out of the ‘50s
                 but lyrically provides a level of emotional intelligence that seemingly can only exist in 2022."
