@@ -45,6 +45,10 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
             test: /bootstrap\/dist\/css\/bootstrap.min.css/,
             use: loaders.null(),
           },
+          {
+            test: /boostrap/,
+            use: loaders.null(),
+          },
         ],
       },
     })
