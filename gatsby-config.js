@@ -48,6 +48,10 @@ module.exports = {
         name: 'photos',
         link: '/photos',
       },
+      {
+        name: 'lyrics',
+        link: '/lyrics',
+      },
     ]
   },
   flags: {

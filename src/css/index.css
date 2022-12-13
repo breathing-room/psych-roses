@@ -23,6 +23,35 @@
   font-family: "Fjalla One";
 }
 
+.accordion {
+  padding: 0 !important;
+  width: 75% !important;
+  margin: auto;
+}
+
+.accordion-item {
+  background-color: rgba(55, 65, 81, var(--tw-bg-opacity)) !important;
+  opacity: 0.75 !important;
+  border: none !important;
+  padding: 1px 2px 1px 2px !important;
+}
+
+.accordion-button {
+  background-color: rgba(252, 165, 165, var(--tw-bg-opacity)) !important;
+  color: rgba(254, 243, 199, var(--tw-text-opacity)) !important;
+  font-size: 1.5rem !important;
+  font-family: "Fjalla One" !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: rgba(254, 243, 199, var(--tw-text-opacity)) !important;
+  box-shadow: 0;
+}
+
+.accordion-body {
+  color: rgba(254, 243, 199, var(--tw-text-opacity)) !important;
+}
+
 #mc_embed_signup {
   background: rgb(31, 41, 55, .75) !important;
   margin: auto !important;
@@ -53,6 +82,9 @@
 
 /* Portrait and Landscape */
 @media only screen and (max-width: 480px) {
+  .accordion {
+    width: 100% !important;
+  }
   #mc_embed_signup {
     width: 100% !important;
   }

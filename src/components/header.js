@@ -67,6 +67,9 @@ function Header() {
           <Link to="/videos" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Videos
           </Link>
+          <Link to="/lyrics" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+            Lyrics
+          </Link>
           <Link to="/epk" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             EPK
           </Link>
