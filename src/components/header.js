@@ -43,37 +43,37 @@ function Header() {
 
         {/* Menu items */}
         <nav className="h-full flex flex-col items-center">
-          {/* <Link to="/about" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          {/* <Link to="/about" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             About
           </Link> */}
-          <Link to="/" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="/" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Home
           </Link>
-          <Link to="/shows" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="/shows" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Shows
           </Link>
-          <Link to="/music" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="/music" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Music
           </Link>
-          <Link to="https://sinkingcityrecords.bandcamp.com/merch?filter_band=182166741" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" rel="noopener noreferrer" target="_blank">
+          <Link to="https://sinkingcityrecords.bandcamp.com/merch?filter_band=182166741" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" rel="noopener noreferrer" target="_blank">
             Shop
           </Link>
-          <Link to="/press" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="/press" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Press
           </Link>
-          <Link to="/photos" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="/photos" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Photos
           </Link>
-          <Link to="/videos" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="/videos" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Videos
           </Link>
-          <Link to="/lyrics" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="/lyrics" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Lyrics
           </Link>
-          <Link to="/epk" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="/epk" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             EPK
           </Link>
-          <Link to="/contact" class="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
+          <Link to="/contact" class="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200" activeClassName="header-link w-full block py-3 px-4 lg:inline-block lg:mt-0 hover:bg-red-300 transition duration:200">
             Contact
           </Link>
           <div>
