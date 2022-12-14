@@ -18,12 +18,16 @@ function PressPage() {
       <div className="flex-col md:flex-row lg:flex text-justify">
         <div className="flex flex-col w-9/10">
           {/* Image placeholder for video */}
-          <div className="hidden md:inline mr-10">
+          {/* <div className="hidden md:inline mr-10">
             <img
               src={SoloImage}
               className="m-8 z-0"
               alt="Tasche de la Rocha"
             />
+          </div> */}
+          {/* Video */}
+          <div class="hidden lg:block md:max-w-2xl md:mx-auto p-3">
+            <iframe width="650" height="400" src="https://www.youtube.com/embed/USTBDhGY8Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           {/* Bio */}
           <div className="bg-gray-800 opacity-75 py-5">
@@ -61,24 +65,6 @@ function PressPage() {
               quiet contemplation, and fighting the demons around us.
             </p>
           </div>
-          {/* Video - To be added once video is released */}
-          {/* <div className="p-5 justify-center">
-            <Video videoSrcURL="https://www.youtube.com/embed/USTBDhGY8Ig" videoTitle="Placeholder" />
-          </div> */}
-          <div class="hidden lg:block md:max-w-2xl md:mx-auto p-3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/USTBDhGY8Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          {/* Contact */}
-          <div className="bg-gray-800 opacity-75 my-3 py-5 flex-col w-full self-center items-center">
-            <h4 className="mx-5 text-lg text-red-300 font-bold">Get in touch</h4>
-            <p className="mx-5 hover:text-red-300"><a class="bootstrap-link-override" href="mailto:taschedelarocahmusic@gmail.com">taschedelarochamusic@gmail.com</a></p>
-            <div className="mx-7">
-              <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://open.spotify.com/artist/0Im7zcYdMp1snHs6JmrB9M?si=RnqkTi0gSJuGTaSAosUdJQ" />
-              <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://www.facebook.com/taschedelarocha" />
-              <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://www.instagram.com/tascheandthepsychedelicroses/" />
-              <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="mailto:taschedelarochamusic@gmail.com" />
-            </div>
-          </div>
         </div>
         <div className="flex flex-col items-center my-6">
           <div className="m-2 md:flex">
@@ -108,7 +94,7 @@ function PressPage() {
             </div>
             {/* Songs */}
             <div className="m-2">
-              <SpotifyPlayer src="https://open.spotify.com/embed/album/5WPIAEuO2jz3nBxcowCtwu?utm_source=generator" height="480"/>
+              <SpotifyPlayer src="https://open.spotify.com/embed/album/5WPIAEuO2jz3nBxcowCtwu?utm_source=generator" height="550"/>
             </div>
           </div>
           <div className="hidden md:inline">
@@ -119,6 +105,17 @@ function PressPage() {
               alt="Psychedelic Roses @ Saturn Bar in NOLA"
             />
           </div>
+        </div>
+      </div>
+      {/* Contact */}
+      <div className="bg-gray-800 opacity-75 my-3 py-5 mx-auto flex-col self-center items-center">
+        <h4 className="mx-5 text-lg text-red-300 font-bold">Get in touch</h4>
+        <p className="mx-5 hover:text-red-300"><a class="bootstrap-link-override" href="mailto:taschedelarocahmusic@gmail.com">taschedelarochamusic@gmail.com</a></p>
+        <div className="mx-7">
+          <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://open.spotify.com/artist/0Im7zcYdMp1snHs6JmrB9M?si=RnqkTi0gSJuGTaSAosUdJQ" />
+          <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://www.facebook.com/taschedelarocha" />
+          <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://www.instagram.com/tascheandthepsychedelicroses/" />
+          <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="mailto:taschedelarochamusic@gmail.com" />
         </div>
       </div>
     </Layout>
