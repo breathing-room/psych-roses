@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { SocialIcon } from 'react-social-icons';
-// import Video from '../components/video';
+import Video from '../components/video';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 import SpotifyPlayer from '../components/spotifyPlayer';
@@ -62,13 +62,16 @@ function PressPage() {
             </p>
           </div>
           {/* Video - To be added once video is released */}
-          {/* <div className="hidden p-5 justify-center">
-            <Video videoSrcURL="https://www.youtube.com/embed/ScMzIvxBSi4" videoTitle="Placeholder" />
+          {/* <div className="p-5 justify-center">
+            <Video videoSrcURL="https://www.youtube.com/embed/USTBDhGY8Ig" videoTitle="Placeholder" />
           </div> */}
+          <div class="hidden lg:block md:max-w-2xl md:mx-auto p-3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/USTBDhGY8Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           {/* Contact */}
-          <div className="bg-gray-800 opacity-75 my-5 py-5 flex-col w-full self-center items-center">
+          <div className="bg-gray-800 opacity-75 my-3 py-5 flex-col w-full self-center items-center">
             <h4 className="mx-5 text-lg text-red-300 font-bold">Get in touch</h4>
-            <p className="mx-5 hover:text-red-300"><a class="link-override" href="mailto:taschedelarocahmusic@gmail.com">taschedelarochamusic@gmail.com</a></p>
+            <p className="mx-5 hover:text-red-300"><a class="bootstrap-link-override" href="mailto:taschedelarocahmusic@gmail.com">taschedelarochamusic@gmail.com</a></p>
             <div className="mx-7">
               <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://open.spotify.com/artist/0Im7zcYdMp1snHs6JmrB9M?si=RnqkTi0gSJuGTaSAosUdJQ" />
               <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://www.facebook.com/taschedelarocha" />
@@ -105,7 +108,7 @@ function PressPage() {
             </div>
             {/* Songs */}
             <div className="m-2">
-              <SpotifyPlayer src="https://open.spotify.com/embed/album/0zJgqhxrieIzuNSXr63Vp7?highlight=spotify:track:7mho0mIfyWHzWJFNMBCqPI?utm_source=generato"/>
+              <SpotifyPlayer src="https://open.spotify.com/embed/album/5WPIAEuO2jz3nBxcowCtwu?utm_source=generator" height="480"/>
             </div>
           </div>
           <div className="hidden md:inline">

@@ -29,12 +29,12 @@
   color: rgba(254, 243, 199, var(--tw-text-opacity)) !important;
 }
 
-.link-override {
+.bootstrap-link-override {
   text-decoration: none !important;
   color: rgba(254, 243, 199, var(--tw-text-opacity)) !important;
 }
 
-.link-override:hover {
+.bootstrap-link-override:hover {
   color: rgba(252, 165, 165, var(--tw-bg-opacity)) !important;
 }
 

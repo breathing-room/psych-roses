@@ -25,7 +25,7 @@ function IndexPage({ data }) {
               </p>
 
               <button className="lg:hidden md:mb-10 text-lg font-semibold bg-red-400 hover:bg-red-300 py-2 pl-5 pr-7 my-3 rounded-full shadow">
-                <a href="https://youtu.be/USTBDhGY8Ig" rel="noopener noreferrer" target="_blank">
+                <a href="https://youtu.be/USTBDhGY8Ig" rel="noopener noreferrer" target="_blank" class="bootstrap-link-override">
                   <span class="ml-2">WATCH</span>
                 </a>
               </button>
@@ -52,14 +52,14 @@ function IndexPage({ data }) {
               </p>
 
               <button className="md:mb-10 text-lg md:text-4xl font-semibold bg-red-400 hover:bg-red-300 py-2 px-4 mx-3 rounded-full shadow">
-                <a href="https://open.spotify.com/album/5WPIAEuO2jz3nBxcowCtwu?si=2EJG7T1aTMiBFOWyBrQEOQ" rel="noopener noreferrer" target="_blank">
+                <a href="https://open.spotify.com/album/5WPIAEuO2jz3nBxcowCtwu?si=2EJG7T1aTMiBFOWyBrQEOQ" rel="noopener noreferrer" target="_blank" class="bootstrap-link-override">
                   <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" network="spotify"/>
                   <span class="ml-2">LISTEN</span>
                 </a>
               </button>
 
               <button className="md:mb-10 text-lg md:text-4xl font-semibold bg-red-400 hover:bg-red-300 py-2 px-4 mx-3 rounded-full shadow">
-                <a href="https://sinkingcityrecords.bandcamp.com/merch?filter_band=182166741" rel="noopener noreferrer" target="_blank">
+                <a href="https://sinkingcityrecords.bandcamp.com/merch?filter_band=182166741" rel="noopener noreferrer" target="_blank" class="bootstrap-link-override">
                   <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" />
                   <span class="ml-2">BUY VINYL</span>
                 </a>
