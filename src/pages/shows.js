@@ -1,8 +1,6 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
-// import { useStaticQuery, graphql } from "gatsby"
-// import { additionalLineup, allCaps } from '../utils/utils'
 const shows = require('../data/showsData.json');
 
 function ShowsPage() {
@@ -30,15 +28,15 @@ function ShowsPage() {
                     {show.city}
                   </div>
                   <div class="md:inline md:p-2 hover:text-red-400">
-                    <a href={show.tickets_url} rel="noreferrer noopener" target="_blank"><strong>{show.description}</strong></a>
+                    <a class="bootstrap-link-override" href={show.tickets_url} rel="noreferrer noopener" target="_blank"><strong>{show.description}</strong></a>
                   </div>
-                  <div class="md:inline md:p-2 text-red-300 hover:text-red-400">
+                  {/* <div class="md:inline md:p-2 text-red-300 hover:text-red-400">
                     {
                       show.tickets_url ?
-                       <a href={show.tickets_url} rel="noreferrer noopener" target="_blank"><strong>BUY TICKETS</strong></a>
+                       <a class="bootstrap-link-override" href={show.tickets_url} rel="noreferrer noopener" target="_blank"><strong>MORE INFO</strong></a>
                        : null
                     }
-                  </div>
+                  </div> */}
                 </div>
               );
             }
