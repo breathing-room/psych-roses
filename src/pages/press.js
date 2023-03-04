@@ -16,6 +16,17 @@ function PressPage() {
           <div>
             <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
               <p className="md:m-5 md:mx-16">
+                "From ‘50s doo-wop and classic R&B to surf rock and grunge, this album rarely plays it straight.
+                [Tasche's] fascination with vintage styles is balanced with twists of synths and modern effects...
+                huge sonic peaks and valleys."
+                <p className="text-red-300"><a href="https://www.offbeat.com/news/how-tasche-de-la-rocha-found-the-feminine-spirit-of-new-orleans/" target="_blank" rel="noopener noreferrer">
+                  <strong class="hover:text-red-400">Offbeat Magazine &rarr;</strong>
+                </a></p>
+              </p>
+            </div>
+
+            <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+              <p className="md:m-5 md:mx-16">
                 "The songs on the album share a central theme of unapologetic transformation...
                 a never-ending love letter to the place that made [de la Rocha] who she is today."
                 <p className="text-red-300"><a href="https://www.blackisthenewapstyle.com/2023/02/celebration-through-pain-interview-with.html?fbclid=IwAR3bI4DM92c4qQpp6j1wsJSy5HrjL6MlwWgylEMajLcRMSF5ZWwRrma_Vdc&m=1" target="_blank" rel="noopener noreferrer">
