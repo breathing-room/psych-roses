@@ -212,11 +212,35 @@
     "city": "New Orleans, LA",
     "description": "Post-Muses show at Santos Bar w/SELMA OX, FR, TITS DICK ASS & DJ SAILOR HANK",
     "tickets_url": "https://www.santosbar.com/new-events/2023/2/16/static-static-selma-ox-fr-tasche-and-the-psychedelic-roaches-tits-dick-ass-amp-dj-sailor-hank"
-  }
+  },
+  {
+    "date": "April 29, 2023",
+    "city": "New Orleans, LA",
+    "description": "Okay Bar w/Los Guiros and TV Poleshine",
+    "tickets_url": ""
+  },
   {
     "date": "May 20, 2023",
     "city": "New Orleans, LA",
     "description": "Bayou Boogaloo",
     "tickets_url": "https://thebayouboogaloo.com/tickets/"
+  },
+  {
+    "date": "June 17, 2023",
+    "city": "New Orleans, LA",
+    "description": "Hotel St. Vincent w/DEHD",
+    "tickets_url": "https://www.eventbrite.com/e/hotel-saint-vincent-presents-dehd-tickets-607622965647"
+  },
+  {
+    "date": "June 28, 2023",
+    "city": "New Orleans, LA",
+    "description": "w/Jason Joshua, location TBA",
+    "tickets_url": ""
+  },
+  {
+    "date": "July 20 - August 20, 2023",
+    "city": "Verplanck, NY",
+    "description": "Residency at KinoSaito -- performances TBA",
+    "tickets_url": ""
   }
 ]
