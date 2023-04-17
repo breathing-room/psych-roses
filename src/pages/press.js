@@ -16,6 +16,17 @@ function PressPage() {
           <div>
             <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
               <p className="md:m-5 md:mx-16">
+                "With three guitarists, a bassist, a drummer and four vocalists in tow,
+                Tasche and the Psychedelic Roses utilize grungy guitar riffs and multipart vocal harmonies
+                to create their version of punk, surf, cabaret and psychedelic music all rolled into one."
+                <p className="text-red-300 "><a class="bootstrap-link-override" href="https://www.fiftygrande.com/5-new-orleans-artists-refashioning-the-citys-music/" target="_blank" rel="noopener noreferrer">
+                  <strong class="hover:text-red-400">Fifty Grande &rarr;</strong>
+                </a></p>
+              </p>
+            </div>
+
+            <div className="bg-gray-700 opacity-75 md:my-10 md:mx-72 p-5 md:p-2">
+              <p className="md:m-5 md:mx-16">
                 "From ‘50s doo-wop and classic R&B to surf rock and grunge, this album rarely plays it straight.
                 [Tasche's] fascination with vintage styles is balanced with twists of synths and modern effects...
                 huge sonic peaks and valleys."
