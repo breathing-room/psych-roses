@@ -240,7 +240,25 @@
   {
     "date": "July 20, 2023 - August 20, 2023",
     "city": "Verplanck, NY",
-    "description": "Residency at KinoSaito -- performances TBA",
-    "tickets_url": ""
+    "description": "Residency at KinoSaito",
+    "tickets_url": "https://www.kinosaito.org/performances"
+  },
+  {
+    "date": "August 2, 2023",
+    "city": "NYC",
+    "description": "Jalopy Theatre's Roots n' Ruckus w/ Feral Foster, Albanie Falletta, Paterson Silk Sox, Dan Freiband",
+    "tickets_url": "https://www.viewcy.com/e/roots_n_ruckus_27"
+  },
+  {
+    "date": "August 9, 2023",
+    "city": "37 S Moger Ave, Mt Kisco, NY",
+    "description": "Jazz on Main",
+    "tickets_url": "https://jazzonmain.com/"
+  },
+  {
+    "date": "August 19, 2023",
+    "city": "Verplanck, NY",
+    "description": "KinoSaito Arts Center, 4-5pm",
+    "tickets_url": "https://www.kinosaito.org/performances"
   }
 ]
