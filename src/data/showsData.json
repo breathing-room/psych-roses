@@ -260,5 +260,17 @@
     "city": "Verplanck, NY",
     "description": "KinoSaito Arts Center, 4-5pm",
     "tickets_url": "https://www.kinosaito.org/performances"
+  },
+  {
+    "date": "October 17, 2023",
+    "city": "New Orleans, LA",
+    "description": "Siberia w/The Stools and the Janitors",
+    "tickets_url": "https://www.siberianola.com/calendar"
+  },
+  {
+    "date": "October 27, 2023",
+    "city": "New Orleans, LA",
+    "description": "The Rume (1235 Elysian Fields) w/Sabine McCalla and Sally Baby",
+    "tickets_url": "https://www.instagram.com/p/CyGoOxIrSTm/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
   }
 ]
