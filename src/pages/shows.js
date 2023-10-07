@@ -3,21 +3,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 const shows = require("../data/showsData.json")
 
-const residency = {
-  date: "July 20, 2023 - August 20, 2023",
-  city: "Verplanck, NY",
-  description: "Residency at KinoSaito",
-  tickets_url: "https://www.kinosaito.org/performances",
-}
-
 function ShowsPage() {
   const today = new Date()
   const upcomingShows = shows.filter(show => {
     const date = new Date(show.date)
     return date >= today
   })
-
-  upcomingShows.push(residency)
 
   console.log(upcomingShows)
   return (
