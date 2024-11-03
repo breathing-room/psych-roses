@@ -16,7 +16,7 @@ function IndexPage({ data }) {
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
       <div className="md:w-9/12 mx-auto header">
-        <p className="text-2xl md:mb-5 md:mt-5 lg:my-2 text-lm md:text-4xl font-semibold text-red-300 p-3">
+        {/* <p className="text-2xl md:mb-5 md:mt-5 lg:my-2 text-lm md:text-4xl font-semibold text-red-300 p-3">
           UPCOMING SHOWS
         </p>
         <div className="md:flex pb-10">
@@ -42,7 +42,7 @@ function IndexPage({ data }) {
                 </a>
             </button>
           </div>
-        </div>
+        </div> */}
         <div className="md:flex">
           <div class="md:max-w-2xl md:mx-auto">
             <img
