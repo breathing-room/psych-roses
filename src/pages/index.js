@@ -7,7 +7,7 @@ import { SocialIcon } from 'react-social-icons';
 import "@fontsource/fjalla-one"
 import SpotifyPlayer from '../components/spotifyPlayer';
 import AlbumCoverImg from '../images/album-cover.jpg'
-import HalloweenShowFlyer from '../images/halloween-show-24.jpg'
+import GazeStarsTourFlyer from '../images/gaze-stars-desert-tour.png'
 import MOHFlyer from '../images/MOH-24-flyer.jpg'
 import Video from '../components/video';
 
@@ -16,11 +16,11 @@ function IndexPage({ data }) {
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
       <div className="md:w-9/12 mx-auto header">
-        {/* <p className="text-2xl md:mb-5 md:mt-5 lg:my-2 text-lm md:text-4xl font-semibold text-red-300 p-3">
-          UPCOMING SHOWS
+        <p className="text-2xl md:mb-5 md:mt-5 lg:my-2 text-lm md:text-4xl font-semibold text-red-300 p-3">
+          UPCOMING TOUR
         </p>
         <div className="md:flex pb-10">
-          <div class="md:max-w-lg md:mx-auto p-4 ">
+          {/* <div class="md:max-w-lg md:mx-auto p-4 ">
             <img class="border-2 border-gray-500"
               src={MOHFlyer}
               className="m-auto z-0"
@@ -30,19 +30,19 @@ function IndexPage({ data }) {
                   <span class="ml-2">TICKETS</span>
               </a>
             </button>
-          </div>
+          </div> */}
           <div class="md:max-w-lg md:mx-auto p-4">
             <img class="border-2 border-gray-500"
-              src={HalloweenShowFlyer}
+              src={GazeStarsTourFlyer}
               className="m-auto z-0"
             />
              <button className="md:mb-10 my-4 text-md md:text-4xl font-semibold bg-red-400 hover:bg-red-300 py-2 px-4 mx-3 rounded-full shadow">
-                <a href="https://tascheandthepsychedelicroses.ticketspice.com/tasche-and-friends" rel="noopener noreferrer" target="_blank" class="bootstrap-link-override">
-                  <span class="ml-2">TICKETS</span>
+                <a href="/shows" rel="noopener noreferrer" target="_blank" class="bootstrap-link-override">
+                  <span class="ml-2">DETAILS</span>
                 </a>
             </button>
           </div>
-        </div> */}
+        </div>
         <div className="md:flex">
           <div class="md:max-w-2xl md:mx-auto">
             <img
