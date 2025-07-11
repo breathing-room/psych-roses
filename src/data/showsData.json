@@ -284,5 +284,77 @@
     "city": "New Orleans, LA",
     "description": "Fred Hampton Free Store (5533 St Claude) w/Clownsystem and Delish Da Goddess. Doors 7PM, show 8PM.",
     "tickets_url": "https://tascheandthepsychedelicroses.ticketspice.com/tasche-and-friends"
+  },
+  {
+    "date": "July 11, 2025",
+    "city": "New Orleans, LA",
+    "description": "St Ferdinand Warehouse Studio, 7PM, w/ Maddy Kirgo (solo), Avery Island BCE (solo), Frankie and Probably Patrick (harp) -- follow signs to space",
+    "tickets_url": ""
+  },
+  {
+    "date": "July 12, 2025",
+    "city": "Lafayette, LA",
+    "description": "The Sidecar, 8PM, w/ Kid Charleroi and Leah Graeff",
+    "tickets_url": "https://www.instagram.com/p/DLtJUqxRYD2/"
+  },
+  {
+    "date": "July 13, 2025",
+    "city": "San Marcos, TX",
+    "description": "Senza Maeso, 4-7PM, w/Sophie Josephine & Willa Oakes",
+    "tickets_url": "https://www.senzamaeso.com/events/sunday-acoustic-sessions-2"
+  },
+  {
+    "date": "July 14, 2025",
+    "city": "Austin, TX",
+    "description": "House show",
+    "tickets_url": ""
+  },
+  {
+    "date": "July 16, 2025",
+    "city": "Marfa, TX",
+    "description": "Hotel Paisano, 6-8PM",
+    "tickets_url": ""
+  },
+  {
+    "date": "July 17, 2025",
+    "city": "Marfa, TX",
+    "description": "Planet Marfa, 7PM",
+    "tickets_url": ""
+  },
+  {
+    "date": "July 18, 2025",
+    "city": "Silver City, NM",
+    "description": "Little Toad Creek, 8PM",
+    "tickets_url": "https://www.littletoadcreek.com/event-details/tasche-and-the-psychedelic-roses"
+  },
+  {
+    "date": "July 19, 2025",
+    "city": "Albuquerque, NM",
+    "description": "TBA",
+    "tickets_url": ""
+  },
+  {
+    "date": "July 20, 2025",
+    "city": "Taos, NM",
+    "description": "OmniHum Gallery, 7PM, w/Avare (Colorado)",
+    "tickets_url": "https://www.omnihum.life/event-details/psychedellic-rock-from-new-orleans-and-colorado"
+  },
+  {
+    "date": "July 24, 2025",
+    "city": "Santa Fe, NM",
+    "description": "Baby Grand w/ Westin McDowell",
+    "tickets_url": "https://www.instagram.com/p/DL2cTNDxphO/?hl=en"
+  },
+  {
+    "date": "July 25, 2025",
+    "city": "Lubbock, TX",
+    "description": "TBA",
+    "tickets_url": ""
+  },
+  {
+    "date": "July 26, 2025",
+    "city": "Austin, TX",
+    "description": "Carousel Lounge",
+    "tickets_url": "https://carousellounge.com/calendar/tasche-de-la-rocha-hailey-tuck-another-band-or-2-9-1am/"
   }
 ]
