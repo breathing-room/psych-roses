@@ -10,7 +10,6 @@ function ShowsPage() {
     return date >= today
   })
 
-  console.log(upcomingShows)
   return (
     <Layout>
       <Seo title="Tasche and the Psychedelic Roses" pathname="/shows" />

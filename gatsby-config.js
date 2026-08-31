@@ -54,9 +54,6 @@ module.exports = {
       },
     ]
   },
-  flags: {
-    PARALLEL_QUERY_RUNNING: true
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
@@ -91,13 +88,6 @@ module.exports = {
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-postcss`,
     {
-      resolve: `gatsby-background-image-es5`,
-      options: {
-        // add your own characters to escape, replacing the default ':/'
-        specialChars: `/:`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
@@ -105,7 +95,6 @@ module.exports = {
           "G-QRH9LMCKBJ", // Google Analytics / GA
         ],
         gtagConfig: {
-          optimize_id: "OPT_CONTAINER_ID",
           anonymize_ip: true,
           cookie_expires: 0,
         },
