@@ -79,15 +79,12 @@ const settings = {
 };
 
 function PhotosPage({ data }) {
-  console.log(data.slideShow.edges);
   const galleryPhotos = data.slideShow.edges.map((image) => {
-    console.log(image);
     return {
       srcSet: image.node.childImageSharp.fluid.srcSet,
     };
   });
 
-  console.log(galleryPhotos);
   return (
     <div className="mx-auto">
       <Layout>

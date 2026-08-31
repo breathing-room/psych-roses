@@ -110,7 +110,7 @@ function PressPage() {
       {/* Contact */}
       <div className="bg-gray-800 opacity-75 my-3 py-5 mx-auto flex-col self-center items-center">
         <h4 className="mx-5 text-lg text-red-300 font-bold">Get in touch</h4>
-        <p className="mx-5 hover:text-red-300"><a class="bootstrap-link-override" href="mailto:taschedelarocahmusic@gmail.com">taschedelarochamusic@gmail.com</a></p>
+        <p className="mx-5 hover:text-red-300"><a class="bootstrap-link-override" href="mailto:taschedelarochamusic@gmail.com">taschedelarochamusic@gmail.com</a></p>
         <div className="mx-7">
           <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://open.spotify.com/artist/0Im7zcYdMp1snHs6JmrB9M?si=RnqkTi0gSJuGTaSAosUdJQ" />
           <SocialIcon bgColor="#FEF3C7" fgColor="#F87171" style={{ margin: '1rem', width: '35px', height: '35px' }} url="https://www.facebook.com/taschedelarocha" />
