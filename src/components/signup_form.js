@@ -4,7 +4,7 @@ const MAILCHIMP_POST =
   'https://tascheandthepsychedelicroses.us18.list-manage.com/subscribe/post?u=833534bcdb474b73457692cf5&id=0031127239&f_id=007909e7f0';
 
 const SignUpForm = () => (
-  <div className="mx-auto">
+  <div className="w-full max-w-md mx-auto">
     <div id="mc_embed_signup">
       <form
         action={MAILCHIMP_POST}
@@ -27,7 +27,7 @@ const SignUpForm = () => (
             <div className="response" id="mce-error-response" style={{ display: 'none' }} />
             <div className="response" id="mce-success-response" style={{ display: 'none' }} />
           </div>
-          <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
+          <div style={{ position: 'absolute', left: '-5000px', height: 0, overflow: 'hidden' }} aria-hidden="true">
             <input type="text" name="b_833534bcdb474b73457692cf5_0031127239" tabIndex="-1" defaultValue="" />
           </div>
           <div className="optionalParent">

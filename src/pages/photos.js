@@ -46,34 +46,10 @@ const settings = {
   infinite: true,
   adaptiveHeight: true,
   fade: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
   prevArrow: <PrevArrow />,
   nextArrow: <NextArrow />,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        initialSlide: 2,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ],
 };
 
 function PhotosPage({ data }) {
@@ -91,11 +67,15 @@ function PhotosPage({ data }) {
     <div className="mx-auto">
       <Layout>
         {/* desktop view -- carousel */}
-        <div className="hidden md:block mx-auto max-w-3xl max-h-24">
+        <div className="hidden md:block mx-auto max-w-3xl px-12">
           <Slider {...settings}>
             {data.slideShow.edges.map((image) => (
-              <div className="max-h-2" key={image.node.id}>
-                <GatsbyImage image={image.node.childImageSharp.gatsbyImageData} alt="image" />
+              <div key={image.node.id}>
+                <GatsbyImage
+                  image={image.node.childImageSharp.gatsbyImageData}
+                  alt=""
+                  objectFit="contain"
+                />
               </div>
             ))}
           </Slider>
@@ -130,7 +110,7 @@ export const query = graphql`
               layout: CONSTRAINED
               placeholder: BLURRED
               quality: 90
-              height: 100
+              width: 960
             )
           }
         }
