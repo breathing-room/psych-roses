@@ -10,9 +10,8 @@ function PressPage() {
   return (
     <Layout>
       {/* Main container */}
-      <div className="flex flex-col lg:flex-row lg:items-start lg:gap-8 max-w-6xl mx-auto text-justify min-w-0">
-        <div className="flex flex-col min-w-0 flex-1">
-          {/* Video */}
+      <div className="epk-layout max-w-6xl mx-auto text-justify min-w-0">
+        <div className="epk-bio min-w-0">
           <div className="hidden lg:block w-full max-w-2xl mx-auto p-3">
             <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
               <iframe
@@ -25,7 +24,6 @@ function PressPage() {
               />
             </div>
           </div>
-          {/* Bio */}
           <div className="bg-gray-800 opacity-75 py-5">
             <p className="mx-5 text-lg text-red-300 font-bold">Bio</p>
             <p className="mx-5">
@@ -62,10 +60,8 @@ function PressPage() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-stretch w-full lg:w-80 shrink-0 my-6 min-w-0">
-          <div className="m-2 flex flex-col gap-4">
-            {/* Reviews */}
-            <div className="bg-gray-800 opacity-75 py-5 min-w-0">
+        <aside className="epk-quote min-w-0 my-6">
+          <div className="bg-gray-800 opacity-75 py-5 min-w-0">
               <p className="mx-5 text-lg text-red-300 font-bold">What folks are saying...</p>
               <p className="mx-5">&quot;Life is a dying art.</p>
               <p className="mx-5">
@@ -87,19 +83,14 @@ function PressPage() {
                 Tasche and the Psychedelic Roses taking the stage.&quot;
               </p>
               <p className="mx-5">- Tansy Undercrypt</p>
-            </div>
           </div>
-        </div>
-      </div>
-      <div className="flex flex-col md:flex-row md:items-start gap-4 max-w-6xl mx-auto my-6 min-w-0 px-2">
-        <div className="flex-1 min-w-0 w-full">
-          <img
-            src={LiveShot}
-            alt="Psychedelic Roses @ Saturn Bar in NOLA"
-            className="w-full block md:h-[550px] md:object-cover"
-          />
-        </div>
-        <div className="shrink-0 w-full md:w-[300px] flex justify-center">
+        </aside>
+        <img
+          className="epk-photo"
+          src={LiveShot}
+          alt="Psychedelic Roses @ Saturn Bar in NOLA"
+        />
+        <div className="epk-player">
           <SpotifyPlayer src="https://open.spotify.com/embed/album/5WPIAEuO2jz3nBxcowCtwu?utm_source=generator" height="550"/>
         </div>
       </div>
