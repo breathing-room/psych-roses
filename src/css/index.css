@@ -69,10 +69,14 @@
 
 #mc_embed_signup {
   background: rgb(31, 41, 55, .75) !important;
-  margin: auto !important;
+  margin: 0 auto !important;
   padding-top: 15px !important;
   padding-bottom: 15px !important;
-  width: 30% !important;
+  width: min(28rem, 100%) !important;
+  max-width: 28rem !important;
+  float: none !important;
+  display: block !important;
+  overflow: hidden !important;
 }
 
 #mc_embed_signup input.email {
@@ -80,8 +84,11 @@
 }
 
 #mc_embed_signup form {
-  width: 58% !important;
+  width: 90% !important;
+  max-width: 22rem !important;
   margin: auto !important;
+  overflow: hidden !important;
+  float: none !important;
 }
 
 #mc-embedded-subscribe {
@@ -112,9 +119,112 @@
   }
 }
 
+.epk-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 0.5rem;
+}
+
+.epk-photo {
+  display: block;
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+}
+
+.epk-player {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .epk-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    grid-template-areas:
+      "bio quote"
+      "photo player";
+    align-items: start;
+    gap: 1.5rem;
+  }
+
+  .epk-bio {
+    grid-area: bio;
+  }
+
+  .epk-quote {
+    grid-area: quote;
+    margin: 0;
+  }
+
+  .epk-photo {
+    grid-area: photo;
+    height: 550px;
+    max-height: none;
+  }
+
+  .epk-player {
+    grid-area: player;
+    margin: 0;
+  }
+}
+
+.press-quote {
+  opacity: 1;
+  clip-path: inset(0);
+  transform: translateY(0);
+}
+
+.press-quote.pending {
+  opacity: 0;
+  clip-path: inset(88% 0 0 0);
+  transform: translateY(2.75rem);
+}
+
+.press-quote.pending.from-left {
+  transform: translate(-1.25rem, 2.75rem);
+}
+
+.press-quote.pending.from-right {
+  transform: translate(1.25rem, 2.75rem);
+}
+
+.press-quote.revealed {
+  opacity: 1;
+  clip-path: inset(0);
+  transform: translateY(0);
+  transition:
+    opacity 0.85s ease,
+    transform 0.85s ease,
+    clip-path 0.9s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .press-quote.pending,
+  .press-quote.revealed {
+    opacity: 1;
+    clip-path: inset(0);
+    transform: none;
+    transition: none;
+  }
+}
+
 .slick-prev, .slick-next {
   font-size: 15px !important;
-  padding: 5rem;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  padding: 0 !important;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -2.5rem !important;
+}
+
+.slick-next {
+  right: -2.5rem !important;
 }
 
  .slick-prev:before, .slick-next:before  {

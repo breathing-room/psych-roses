@@ -3,7 +3,7 @@ import SignUpForm from './signup_form';
 
 function Footer() {
   return (
-    <footer className="p-5 mx-auto text-center text-xs">
+    <footer className="w-full p-5 text-center text-xs">
       <SignUpForm />
     </footer>
   );

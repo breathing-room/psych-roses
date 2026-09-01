@@ -24,10 +24,10 @@ function Layout({ children }) {
   `);
 
   return (
-    <div className="relative min-h-screen flex-col bg-space">
+    <div className="relative min-h-screen flex flex-col overflow-x-hidden bg-space">
       <Header siteTitle={data.site.siteMetadata?.title} />
-      <div className="flex-col flex-1">
-        <main className="flex-col mx-auto content-center text-center p-2">{children}</main>
+      <div className="flex-1 w-full">
+        <main className="mx-auto content-center text-center p-2 pb-16">{children}</main>
       </div>
       <Footer/>
     </div>

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
 import { SocialIcon } from 'react-social-icons';
 import SpotifyPlayer from '../components/spotifyPlayer';
+import LiveShot from '../images/carouselImages/IMG_2451.jpg';
 
 import Layout from '../components/layout';
 import Seo from '../components/seo';
@@ -10,21 +10,20 @@ function PressPage() {
   return (
     <Layout>
       {/* Main container */}
-      <div className="flex-col md:flex-row lg:flex text-justify">
-        <div className="flex flex-col w-9/10">
-          {/* Image placeholder for video */}
-          {/* <div className="hidden md:inline mr-10">
-            <img
-              src={SoloImage}
-              className="m-8 z-0"
-              alt="Tasche de la Rocha"
-            />
-          </div> */}
-          {/* Video */}
-          <div class="hidden lg:block md:max-w-2xl md:mx-auto p-3">
-            <iframe width="650" height="400" src="https://www.youtube.com/embed/USTBDhGY8Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div className="epk-layout max-w-6xl mx-auto text-justify min-w-0">
+        <div className="epk-bio min-w-0">
+          <div className="hidden lg:block w-full max-w-2xl mx-auto p-3">
+            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/USTBDhGY8Ig"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
           </div>
-          {/* Bio */}
           <div className="bg-gray-800 opacity-75 py-5">
             <p className="mx-5 text-lg text-red-300 font-bold">Bio</p>
             <p className="mx-5">
@@ -61,10 +60,8 @@ function PressPage() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center my-6">
-          <div className="m-2 md:flex">
-            {/* Reviews */}
-            <div className="bg-gray-800 opacity-75 py-5">
+        <aside className="epk-quote min-w-0 my-6">
+          <div className="bg-gray-800 opacity-75 py-5 min-w-0">
               <p className="mx-5 text-lg text-red-300 font-bold">What folks are saying...</p>
               <p className="mx-5">&quot;Life is a dying art.</p>
               <p className="mx-5">
@@ -86,20 +83,15 @@ function PressPage() {
                 Tasche and the Psychedelic Roses taking the stage.&quot;
               </p>
               <p className="mx-5">- Tansy Undercrypt</p>
-            </div>
-            {/* Songs */}
-            <div className="m-2">
-              <SpotifyPlayer src="https://open.spotify.com/embed/album/5WPIAEuO2jz3nBxcowCtwu?utm_source=generator" height="550"/>
-            </div>
           </div>
-          <div className="hidden md:inline">
-            <StaticImage
-              src="../images/carouselImages/IMG_2451.jpg"
-              class="m-8 z-0"
-              formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Psychedelic Roses @ Saturn Bar in NOLA"
-            />
-          </div>
+        </aside>
+        <img
+          className="epk-photo"
+          src={LiveShot}
+          alt="Psychedelic Roses @ Saturn Bar in NOLA"
+        />
+        <div className="epk-player">
+          <SpotifyPlayer src="https://open.spotify.com/embed/album/5WPIAEuO2jz3nBxcowCtwu?utm_source=generator" height="550"/>
         </div>
       </div>
       {/* Contact */}
@@ -122,4 +114,3 @@ export default PressPage;
 export const Head = () => (
   <Seo title="Tasche and the Psychedelic Roses EPK" pathname="/epk" />
 );
-
