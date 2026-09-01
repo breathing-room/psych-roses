@@ -1,18 +1,10 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
 const MAILCHIMP_POST =
   'https://tascheandthepsychedelicroses.us18.list-manage.com/subscribe/post?u=833534bcdb474b73457692cf5&id=0031127239&f_id=007909e7f0';
 
 const SignUpForm = () => (
   <div className="mx-auto">
-    <Helmet>
-      <link
-        href="https://cdn-images.mailchimp.com/embedcode/classic-071822.css"
-        rel="stylesheet"
-        type="text/css"
-      />
-    </Helmet>
     <div id="mc_embed_signup">
       <form
         action={MAILCHIMP_POST}

@@ -1,11 +1,7 @@
 import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { SocialIcon } from 'react-social-icons';
-import Video from '../components/video';
-import Img from 'gatsby-image';
-import { graphql } from 'gatsby';
 import SpotifyPlayer from '../components/spotifyPlayer';
-import SoloImage from '../images/solo-face.jpg';
 
 import Layout from '../components/layout';
 import Seo from '../components/seo';
@@ -13,7 +9,6 @@ import Seo from '../components/seo';
 function PressPage() {
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses EPK" pathname="/epk" />
       {/* Main container */}
       <div className="flex-col md:flex-row lg:flex text-justify">
         <div className="flex flex-col w-9/10">
@@ -124,14 +119,7 @@ function PressPage() {
 
 export default PressPage;
 
-export const query = graphql`
-  query {
-    file(relativePath: {eq: "solo-face.JPG"}) {
-        childImageSharp {
-          fluid(maxWidth: 500, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-  }
-`;
+export const Head = () => (
+  <Seo title="Tasche and the Psychedelic Roses EPK" pathname="/epk" />
+);
+

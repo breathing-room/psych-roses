@@ -12,7 +12,6 @@ function ShowsPage() {
 
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses" pathname="/shows" />
       <div class="lg:p-6">
         <p class="text-4xl font-bold header text-red-300 mb-9">
           Upcoming Shows
@@ -54,3 +53,8 @@ function ShowsPage() {
 }
 
 export default ShowsPage
+
+export const Head = () => (
+  <Seo title="Tasche and the Psychedelic Roses" pathname="/shows" />
+)
+

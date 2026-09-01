@@ -8,7 +8,6 @@ const Accordion = loadable(() => import('../components/accordion'))
 function LyricsPage() {
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses" pathname="/lyrics" />
       <div className="mx-auto">
         <p class="text-2xl font-bold header text-red-300 mb-9">Lyrics for <em>Tasche & the Psychedelic Roses</em></p>
         <Accordion />
@@ -18,3 +17,8 @@ function LyricsPage() {
 }
 
 export default LyricsPage;
+
+export const Head = () => (
+  <Seo title="Tasche and the Psychedelic Roses" pathname="/lyrics" />
+);
+

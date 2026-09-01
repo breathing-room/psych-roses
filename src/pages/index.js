@@ -8,7 +8,6 @@ import AlbumCoverImg from '../images/album-cover.jpg'
 function IndexPage() {
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
       <div className="md:w-9/12 mx-auto header">
         <div className="md:flex">
           <div class="md:max-w-2xl md:mx-auto">
@@ -71,3 +70,8 @@ function IndexPage() {
 }
 
 export default IndexPage;
+
+export const Head = () => (
+  <Seo title="Tasche and the Psychedelic Roses" pathname="/" />
+);
+

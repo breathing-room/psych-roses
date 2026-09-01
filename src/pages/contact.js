@@ -6,7 +6,6 @@ import { SocialIcon } from 'react-social-icons';
 function ContactPage() {
   return (
     <Layout>
-    <Seo title="Tasche and the Psychedelic Roses" pathname="/contact" />
     <div className="w-9/12 mx-auto">
       <p class="text-4xl font-bold header text-red-300 mb-9">Booking/Contact</p>
 
@@ -28,3 +27,8 @@ function ContactPage() {
 }
 
 export default ContactPage;
+
+export const Head = () => (
+  <Seo title="Tasche and the Psychedelic Roses" pathname="/contact" />
+);
+

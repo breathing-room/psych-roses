@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import Gallery from 'react-photo-gallery';
@@ -19,7 +19,6 @@ function PrevArrow(props) {
       onClick={onClick}
     >
       <FontAwesomeIcon
-              // style={{ marginRight: 31000}}
         icon={faAngleLeft}
         color="rgb(252 165 165)"
         size="4x"
@@ -35,7 +34,6 @@ function NextArrow(props) {
       onClick={onClick}
     >
       <FontAwesomeIcon
-              // style={{ padding: '2rem'}}
         icon={faAngleRight}
         color="rgb(252 165 165)"
         size="4x"
@@ -80,21 +78,24 @@ const settings = {
 
 function PhotosPage({ data }) {
   const galleryPhotos = data.slideShow.edges.map((image) => {
+    const imageData = image.node.childImageSharp.gatsbyImageData;
     return {
-      srcSet: image.node.childImageSharp.fluid.srcSet,
+      src: imageData.images.fallback.src,
+      srcSet: imageData.images.fallback.srcSet,
+      width: imageData.width,
+      height: imageData.height,
     };
   });
 
   return (
     <div className="mx-auto">
       <Layout>
-        <Seo title="Tasche and the Psychedelic Roses" pathname="/photos" />
         {/* desktop view -- carousel */}
         <div className="hidden md:block mx-auto max-w-3xl max-h-24">
           <Slider {...settings}>
             {data.slideShow.edges.map((image) => (
-              <div className="max-h-2">
-                <Img key={image.node} fluid={image.node.childImageSharp.fluid} alt="image" />
+              <div className="max-h-2" key={image.node.id}>
+                <GatsbyImage image={image.node.childImageSharp.gatsbyImageData} alt="image" />
               </div>
             ))}
           </Slider>
@@ -111,19 +112,26 @@ function PhotosPage({ data }) {
 
 export default PhotosPage;
 
+export const Head = () => (
+  <Seo title="Tasche and the Psychedelic Roses" pathname="/photos" />
+);
+
 export const query = graphql`
   query {
     slideShow: allFile(
       filter: {relativeDirectory: {eq: "carouselImages"}}
-      sort: {fields: base, order: ASC}
+      sort: {base: ASC}
     ) {
       edges {
         node {
           id
           childImageSharp {
-            fluid(quality: 90, maxHeight: 100) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(
+              layout: CONSTRAINED
+              placeholder: BLURRED
+              quality: 90
+              height: 100
+            )
           }
         }
       }
