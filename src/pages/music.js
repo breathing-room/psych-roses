@@ -7,7 +7,6 @@ import SpotifyPlayer from '../components/spotifyPlayer';
 function MusicPage() {
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses" pathname="/music" />
       <div className="md:m-auto md:p-4 flex flex-col lg:flex-row justify-center">
         <div className="md:p-4">
           <SpotifyPlayer src="https://open.spotify.com/embed/album/5WPIAEuO2jz3nBxcowCtwu?utm_source=generator" height="480"/>
@@ -36,3 +35,8 @@ function MusicPage() {
 }
 
 export default MusicPage;
+
+export const Head = () => (
+  <Seo title="Tasche and the Psychedelic Roses" pathname="/music" />
+);
+

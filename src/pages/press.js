@@ -1,6 +1,4 @@
 import * as React from 'react';
-import { graphql } from 'gatsby';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 import { SocialIcon } from 'react-social-icons';
@@ -10,7 +8,6 @@ import "@fontsource/fjalla-one"
 function PressPage() {
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses" pathname="/press" />
       <div className="w-9/12 mx-auto">
         <p class="text-4xl font-bold header text-red-300 mb-9">Recent Press for <em>Tasche & the Psychedelic Roses</em></p>
           <div>
@@ -264,15 +261,8 @@ function PressPage() {
 
 export default PressPage;
 
-export const query = graphql`
-  query {
-    file(relativePath: {eq: "solo-face.JPG"}) {
-        childImageSharp {
-          fluid(maxWidth: 500, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-  }
-`;
+export const Head = () => (
+  <Seo title="Tasche and the Psychedelic Roses" pathname="/press" />
+);
+
 

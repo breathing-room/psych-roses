@@ -5,7 +5,6 @@ import Seo from '../components/seo';
 function VideoPage() {
   return (
     <Layout>
-      <Seo title="Tasche and the Psychedelic Roses" pathname="/videos" />
       <div className="mx-auto flex flex-col items-center">
         <div class="p-4 lg:hidden">
           <iframe
@@ -58,3 +57,8 @@ function VideoPage() {
 }
 
 export default VideoPage;
+
+export const Head = () => (
+  <Seo title="Tasche and the Psychedelic Roses" pathname="/videos" />
+);
+
