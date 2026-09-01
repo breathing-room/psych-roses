@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
 import { SocialIcon } from 'react-social-icons';
 import SpotifyPlayer from '../components/spotifyPlayer';
+import LiveShot from '../images/carouselImages/IMG_2451.jpg';
 
 import Layout from '../components/layout';
 import Seo from '../components/seo';
@@ -88,19 +88,19 @@ function PressPage() {
               </p>
               <p className="mx-5">- Tansy Undercrypt</p>
             </div>
-            {/* Songs */}
-            <div className="m-2">
-              <SpotifyPlayer src="https://open.spotify.com/embed/album/5WPIAEuO2jz3nBxcowCtwu?utm_source=generator" height="550"/>
-            </div>
           </div>
-          <div className="hidden md:inline">
-            <StaticImage
-              src="../images/carouselImages/IMG_2451.jpg"
-              class="m-8 z-0"
-              formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Psychedelic Roses @ Saturn Bar in NOLA"
-            />
-          </div>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row md:items-start gap-4 max-w-6xl mx-auto my-6 min-w-0 px-2">
+        <div className="flex-1 min-w-0 w-full">
+          <img
+            src={LiveShot}
+            alt="Psychedelic Roses @ Saturn Bar in NOLA"
+            className="w-full block md:h-[550px] md:object-cover"
+          />
+        </div>
+        <div className="shrink-0 w-full md:w-[300px] flex justify-center">
+          <SpotifyPlayer src="https://open.spotify.com/embed/album/5WPIAEuO2jz3nBxcowCtwu?utm_source=generator" height="550"/>
         </div>
       </div>
       {/* Contact */}
@@ -123,4 +123,3 @@ export default PressPage;
 export const Head = () => (
   <Seo title="Tasche and the Psychedelic Roses EPK" pathname="/epk" />
 );
-
