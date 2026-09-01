@@ -1,5 +1,11 @@
 const pressQuotes = [
   {
+    source: 'New Orleans Magazine',
+    href: 'https://www.myneworleans.com/tasche-de-la-rochas-swinging-soul-and-psychedelic-doo-wop/',
+    quote:
+      'De la Rocha’s inherent “Portland” sound transfigured itself on those French Quarter streets into something as soulful as it is mournful and as ecstatic as it is explosive, a big band battle cry... spinning a primal phantasmagoria that beats with the sound of sadness, rage, and grace; a siren song of New Orleans beckoning us all back home where we belong.',
+  },
+  {
     source: 'Fifty Grande',
     href: 'https://www.fiftygrande.com/5-new-orleans-artists-refashioning-the-citys-music/',
     quote:
